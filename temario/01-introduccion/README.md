@@ -6,20 +6,6 @@ El perfil de Graduado en Lenguas Aplicadas ha cambiado drásticamente. Empresas 
 
 La tecnología no es neutra. Quien no entiende estas herramientas se convierte en usuario pasivo, limitando sus oportunidades profesionales. Quien las domina puede diseñar procesos eficientes, ofrecer servicios de mayor valor y adaptarse a un mercado en constante cambio.
 
-## ¿Qué?
-
-- Panorama del profesional de la lengua en la era digital: qué se espera de un graduado hoy
-- Estado del arte: de las expresiones regulares a la IA generativa
-- Casos de uso integrados: cómo se encadenan estas tecnologías en procesos reales
-
-## ¿Para qué?
-
-- Visibilizar el mercado laboral real (localización, gestión terminológica, análisis de corpus, contenido técnico)
-- Entender qué resuelve cada tecnología y cuándo conviene usarla
-- Evitar la "tecnofilia acrítica" y la "tecnofobia paralítica": formar profesionales con criterio propio
-
-## ¿Cómo?
-
 ### El profesional de la lengua hoy
 
 - Datos del mercado: qué piden las empresas (traducción técnica, localización, gestión de contenido, NLP)
@@ -27,7 +13,28 @@ La tecnología no es neutra. Quien no entiende estas herramientas se convierte e
 - El "abismo": lo que enseñamos vs lo que demanda el mercado
 - **Demostración en vivo:** Búsqueda conjunta de ofertas de empleo en tiempo real, análisis de habilidades tecnológicas requeridas
 
-### Mapa del temario
+## ¿Qué?
+
+Tecnologías de procesamiento de lenguaje: expresiones regulares (para limpiar y estructurar), procesamiento de lenguaje natural o PLN (para analizar y extraer información) e IA generativa (para crear y transformar contenido). Tres herramientas complementarias que todo profesional de la lengua debería conocer.
+
+## ¿Para qué?
+
+- Visibilizar el mercado laboral real (localización, gestión terminológica, análisis de corpus, contenido técnico)
+- Entender qué resuelve cada tecnología y cuándo conviene usarla
+- Evitar la "tecnofilia acrítica" y la "tecnofobia paralítica": formar profesionales con criterio propio
+
+### A day in the life...
+
+> "Una editorial necesita crear ejercicios de vocabulario a partir de un corpus de artículos periodísticos."
+
+1. Regex → limpiar metadatos del corpus
+2. PLN → extraer entidades y lemas
+3. IA generativa → generar ejercicios a partir de los términos extraídos
+4. Validación humana → corregir y refinar
+
+## ¿Cómo?
+
+### Temario
 
 1. **Regex** → "Limpiar y estructurar texto"
    - Ejemplo en directo: corpus con URLs sucias → regexr.com → corpus limpio
@@ -39,15 +46,6 @@ La tecnología no es neutra. Quien no entiende estas herramientas se convierte e
    - Ejemplo en directo: prompt → ejercicio didáctico, traducción con estilo
 
 **Metáfora visual:** El iceberg de la automatización lingüística.
-
-### A day in the life...
-
-> "Una editorial necesita crear ejercicios de vocabulario a partir de un corpus de artículos periodísticos."
-
-1. Regex → limpiar metadatos del corpus
-2. PLN → extraer entidades y lemas
-3. IA generativa → generar ejercicios a partir de los términos extraídos
-4. Validación humana → corregir y refinar
 
 ### Cierre y expectativas
 
