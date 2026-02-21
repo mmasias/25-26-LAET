@@ -1,0 +1,204 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+hide circle
+hide empty member
+
+class "Expresión Regular" as RE {
+  Patrón de búsqueda compuesto
+  por literales y metacaracteres
+}
+
+package Literales {
+  class "Literales" as LIT {
+    Caracteres que se representan
+    a sí mismos en el patrón
+  }
+
+  class "Alfanuméricos" as ALFA {
+    hola123
+  }
+
+  class "Metacaracteres escapados" as ESC_META {
+    \\. \\* \\+ \\? \\( \\)
+  }
+  
+  class "Espacios escapados" as ESC_SP {
+    \\τ  \\n  \\r
+  }
+
+}
+
+class "Metacaracteres" as META {
+  Caracteres con significado especial
+}
+
+package Cuantificadores {
+  class "Cuantificadores" as QUANT {
+    Controlan repeticiones
+    del elemento precedente
+  }
+
+  class "Voraces (greedy)" as GREEDY {
+    ∗ (0+)  + (1+)  ? (0 o 1)  {n,m}
+  }
+
+  class "Perezosos (lazy)" as LAZY {
+    ∗?  +?  ??  {n,m}?
+  }
+
+  class "Posesivos" as POSS {
+    ∗+  ++  ?+  {n,m}+
+  }
+
+}
+
+package "Anclas" {
+  class "Anclas" as ANCHOR {
+    No consumen caracteres
+  }
+
+  class "Inicio / Fin" as POS {
+    ^  $  \\A  \\Z
+  }
+
+  class "Límite de palabra" as BOUND {
+    \\b  \\B
+  }
+}
+
+package "Clases de caracteres" {
+  class "Clases de caracteres" as CCLASS {
+    Conjuntos válidos para una posición
+  }
+
+  class "Predefinidas" as PREDEF {
+    \\d  \\w  \\s
+  }
+
+  class "Negadas" as NEG {
+    \\D  \\W  \\S
+  }
+
+  class "Personalizadas [ ]" as CUSTOM {
+    [aeiou]  [0-9]  [^abc]
+  }
+
+  class "Comodín" as DOT {
+    . (cualquier carácter excepto \\n)
+  }
+}
+
+package "Agrupación y captura" {
+  class "Agrupación y captura" as GROUP {
+    Subexpresiones y referencias
+  }
+
+  class "Grupo de captura" as CAP {
+    (abc)
+  }
+
+  class "Grupo sin captura" as NOCAP {
+    (?:abc)
+  }
+
+  class "Grupo con nombre" as NAMED {
+    (?<nombre>abc)
+  }
+
+  class "Referencia inversa" as BACKREF {
+    \\1  \\k<nombre>
+  }
+}
+
+class "Alternancia" as ALT {
+  | (operador OR)
+  gato|perro
+}
+
+package "Lookaround" {
+  class "Lookaround" as LOOK {
+    Aserciones sin consumo
+  }
+
+  class "Lookahead +" as LA_POS {
+    X(?=Y)
+  }
+
+  class "Lookahead -" as LA_NEG {
+    X(?!Y)
+  }
+
+  class "Lookbehind +" as LB_POS {
+    (?<=Y)X
+  }
+
+  class "Lookbehind -" as LB_NEG {
+    (?<!Y)X
+  }
+}
+
+package "Flags" {
+  class "Flags / Modificadores" as FLAGS {
+    Comportamiento global
+  }
+
+  class "i - Case insensitive" as F_I {
+  }
+
+  class "m - Multiline" as F_M {
+  }
+
+  class "s - Dotall" as F_S {
+  }
+
+  class "g - Global" as F_G {
+  }
+}
+
+RE <|-- LIT
+RE <|---- META
+
+
+LIT <|-- ESC_SP
+LIT <|-- ALFA
+LIT <|--- ESC_META
+
+
+META <|- ALT
+META <|--- QUANT
+META <|----- LOOK
+META <|------- GROUP
+META <|------- CCLASS
+META <|--- ANCHOR
+META <|--- FLAGS
+
+QUANT <|-- GREEDY
+QUANT <|--- LAZY
+QUANT <|-- POSS
+
+ANCHOR <|-- POS
+ANCHOR <|--- BOUND
+
+CCLASS <|-- PREDEF
+CCLASS <|--- NEG
+CCLASS <|--- CUSTOM
+CCLASS <|-- DOT
+
+GROUP <|-- CAP
+GROUP <|--- NOCAP
+GROUP <|--- NAMED
+GROUP <|-- BACKREF
+
+LOOK <|-- LA_POS
+LOOK <|--- LA_NEG
+LOOK <|--- LB_POS
+LOOK <|-- LB_NEG
+
+FLAGS <|-- F_I
+FLAGS <|--- F_M
+FLAGS <|--- F_S
+FLAGS <|-- F_G
+
+@enduml

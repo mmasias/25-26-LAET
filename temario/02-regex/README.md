@@ -42,6 +42,11 @@ Notación formal que permite describir patrones mediante dos tipos de elementos:
 - **Literales:** caracteres que se buscan tal cual
 - **Metacaracteres:** símbolos especiales que representan categorías (dígitos, espacios, cualquier carácter, repeticiones)
 
+<div align=center>
+
+|![](/images/modelosUML/regex-taxonomy-simple.svg)
+|-
+
 | Problema informático | Problema lingüístico |
 |---------------------|-------------------|
 | `\(.*\)` - extraer contenido entre paréntesis | `\b[a-zA-Z]+ing\b` - encontrar anglicismos |
@@ -49,8 +54,8 @@ Notación formal que permite describir patrones mediante dos tipos de elementos:
 | `<a href="[^"]+">` - extraer enlaces HTML | `\b[A-ZÁÉÍÓÚÑ]{3,}\b` - sustantivos en mayúscula |
 | `\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}` - validar IPv4 | `\b\w+(ar\|er\|ir)\b` - verbos en infinitivo |
 
-[Regex básico](basico.md) - Práctica visual con regexr.com
+</div>
 
-[Regex aplicado](aplicado.md) - Corpus reales con hojas de cálculo
-
-[Regex avanzado](avanzado.md) - Automatización y límites
+- [Regex básico](basico.md) - Práctica visual con regexr.com
+- [Regex aplicado](aplicado.md) - Corpus reales con hojas de cálculo
+- [Regex avanzado](avanzado.md) - Automatización y límites

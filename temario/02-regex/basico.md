@@ -26,6 +26,13 @@ Búsqueda de patrones en lugar de palabras exactas.
 
 ## ¿Cómo?
 
+<div align=center>
+
+|![](/images/modelosUML/regex-taxonomy.svg)|
+|-|
+
+</div>
+
 ### Construcción
 
 Las expresiones regulares se construyen con dos tipos de elementos:

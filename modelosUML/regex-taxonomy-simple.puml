@@ -1,0 +1,87 @@
+@startuml
+
+hide circle
+hide members
+
+class "<b>Expresión Regular" as RE
+class "<b>Literales</b>" as LIT
+
+
+  class "Alfanuméricos" as ALFA
+  class "Espacios\nescapados" as ESC_SP
+  class "Metacaracteres\nescapados" as ESC_META
+
+
+class "<b>Metacaracteres" as META
+class "<b>Cuantificadores" as QUANT
+class "Voraces (greedy)" as GREEDY
+class "Perezosos (lazy)" as LAZY
+class "Posesivos" as POSS
+class "<b>Anclas" as ANCHOR
+class "Inicio / Fin" as POS
+class "Límite de palabra" as BOUND
+class "<b>Clases de caracteres" as CCLASS
+class "Predefinidas" as PREDEF
+class "Negadas" as NEG
+class "Personalizadas [ ]" as CUSTOM
+class "Comodín" as DOT
+class "<b>Agrupación y captura" as GROUP
+class "Grupo de captura" as CAP
+class "Grupo sin captura" as NOCAP
+class "Grupo con nombre" as NAMED
+class "Referencia inversa" as BACKREF
+class "<b>Alternancia" as ALT
+class "<b>Lookaround" as LOOK
+class "Lookahead +" as LA_POS
+class "Lookahead -" as LA_NEG
+class "Lookbehind +" as LB_POS
+class "Lookbehind -" as LB_NEG
+class "<b>Flags / Modificadores" as FLAGS
+class "i - Case insensitive" as F_I
+class "m - Multiline" as F_M
+class "s - Dotall" as F_S
+class "g - Global" as F_G
+
+RE <|-- LIT
+RE <|---- META
+
+LIT <|-- ALFA
+LIT <|-- ESC_SP
+LIT <|-- ESC_META
+
+META <|- ALT
+META <|--- QUANT
+META <|----- LOOK
+META <|------- GROUP
+META <|------- CCLASS
+META <|--- ANCHOR
+META <|--- FLAGS
+
+QUANT <|-- GREEDY
+QUANT <|--- LAZY
+QUANT <|-- POSS
+
+ANCHOR <|-- POS
+ANCHOR <|--- BOUND
+
+CCLASS <|-- PREDEF
+CCLASS <|--- NEG
+CCLASS <|--- CUSTOM
+CCLASS <|-- DOT
+
+GROUP <|-- CAP
+GROUP <|--- NOCAP
+GROUP <|--- NAMED
+GROUP <|-- BACKREF
+
+LOOK <|-- LA_POS
+LOOK <|--- LA_NEG
+LOOK <|--- LB_POS
+LOOK <|-- LB_NEG
+
+FLAGS <|-- F_I
+FLAGS <|--- F_M
+FLAGS <|--- F_S
+FLAGS <|-- F_G
+
+@enduml
