@@ -32,10 +32,36 @@ Evitar frustraciones intentando resolver problemas con la herramienta equivocada
 | Reemplazar | REGEXREPLACE | `re.sub()` |
 | Verificar si coincide | REGEXMATCH | `re.match()` / `re.fullmatch()` |
 
-### Hacia PLN
+### Sintaxis básica de Python regex
 
-Para análisis profundo se necesita procesamiento de lenguaje natural.
+```python
+import re
+
+texto = "Los posts sobre influencers generan engagement"
+
+# re.search() - primera coincidencia
+resultado = re.search(r'\b\w+ing\b', texto)
+# Devuelve un objeto match, acceder con .group()
+
+# re.findall() - todas las coincidencias
+resultados = re.findall(r'\b\w+ing\b', texto)
+# Devuelve lista: ['posts', 'influencers', 'engagement']
+
+# re.sub() - reemplazar
+nuevo_texto = re.sub(r'\b\w+ing\b', '[ANGICISMO]', texto)
+# Devuelve texto con reemplazos
+
+# re.match() - coincide solo al inicio
+if re.match(r'^Los', texto):
+    # True si el texto empieza con "Los"
+```
 
 ### Ejercicio
 
 [Regex avanzado - Ejercicio](avanzado-ejercicio.md)
+
+## Y ahora, ¿qué?
+
+### Hacia PLN
+
+Para análisis profundo se necesita procesamiento de lenguaje natural.
