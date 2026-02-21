@@ -2,11 +2,13 @@
 
 ## ¿Por qué?
 
-Casos reales son siempre más complejos que ejemplos didácticos. Necesitan ver problemas y soluciones del mundo profesional.
+Casos reales son más complejos que ejemplos didácticos. Corpus grandes no caben en regexr.com. Necesitan procesar archivos reales, extraer información estructurada y reutilizar regexes.
 
 ## ¿Qué?
 
-Patrones avanzados para casos lingüísticos específicos.
+**Patrones avanzados para casos lingüísticos específicos**
+
+Aplicación de regex a corpus reales con herramientas que manejan volúmenes mayores.
 
 ## ¿Para qué?
 
@@ -16,7 +18,17 @@ Patrones avanzados para casos lingüísticos específicos.
 
 ## ¿Cómo?
 
-- Caso 1: Corpus de sentencias judiciales → extraer referencias legales (Ley ##/####, Art. ##)
-- Caso 2: Corpus literario → identificar diálogos vs narración
-- Caso 3: Corpus médico → extraer dosis medicamentos (## mg, ## ml)
-- Transición a Python: mismo regex en regexr.com vs en Notebook Colab
+**Google Sheets + funciones regex**
+
+- `REGEXEXTRACT(texto, regex)` - Extrae la primera coincidencia
+- `REGEXREPLACE(texto, regex, reemplazo)` - Reemplaza coincidencias
+- `REGEXMATCH(texto, regex)` - Devuelve TRUE/FALSE si coincide
+- `ARRAYFORMULA()` - Aplica a todo un rango
+
+**Caso 1:** Corpus de tweets → extraer anglicismos (buscando `\-ing`, `\-er`, `\-or`)
+
+**Caso 2:** Corpus literario → identificar diálogos vs narración
+
+**Caso 3:** Corpus médico → extraer dosis medicamentos (`## mg`, `## ml`)
+
+**Transición a Python:** Mismo regex en regexr.com vs en Notebook Colab

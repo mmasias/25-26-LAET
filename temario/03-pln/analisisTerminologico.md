@@ -2,20 +2,27 @@
 
 ## ¿Por qué?
 
-Traducción especializada requiere consistencia terminológica. Compilar glosarios manualmente = semanas. Automatizarlo = horas.
+La terminología especializada cambia constantemente. Identificar y extraer términos técnicos de forma manual en corpus grandes es inviable. Se necesita automatización para mantener glosarios actualizados.
 
 ## ¿Qué?
 
-Extracción de términos candidatos + análisis de frecuencias + contextos de uso.
+**Extracción de términos, frecuencias, contextos y colocaciones.**
+
+Análisis de cómo los términos se usan realmente en corpus especializados.
 
 ## ¿Para qué?
 
-- Crear glosarios especializados para proyectos de traducción
-- Analizar terminología en corpus técnicos
-- Detectar inconsistencias terminológicas
+- Construcción de glosarios especializados
+- Identificación de neologismos
+- Análisis de variación terminológica
+- Extracción de candidatos para traducción técnica
 
 ## ¿Cómo?
 
-- Herramienta: spaCy + análisis de n-gramas
-- Ejercicio: Corpus documentación técnica (50 documentos) → glosario automático
-- Validación humana: cómo filtrar ruido y confirmar términos relevantes
+**spaCy + análisis de n-gramas**
+
+Corpus → términos candidatos → frecuencias → contextos → colocaciones
+
+**Ejercicio:** Corpus de artículos científicos → extracción de términos técnicos + análisis de frecuencias por campo
+
+**Validación humana:** filtrar ruido y confirmar términos relevantes

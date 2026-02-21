@@ -1,12 +1,12 @@
-# Fundamentos IA generativa
+# Fundamentos de IA generativa
 
 ## ¿Por qué?
 
-ChatGPT/Claude son omnipresentes. Usarlos sin entender cómo funcionan = resultados impredecibles y errores graves.
+ChatGPT/Claude son omnipresentes. Usarlos sin entender cómo funcionan es resultados impredecibles y errores graves.
 
 ## ¿Qué?
 
-LLMs (modelos de lenguaje grandes). Cómo generan texto. Qué pueden/no pueden hacer. Limitaciones críticas.
+**LLMs (modelos de lenguaje grandes). Cómo generan texto. Qué pueden/no pueden hacer. Limitaciones críticas.**
 
 ## ¿Para qué?
 
@@ -14,7 +14,10 @@ Usar IA generativa de forma informada, no mágica. Entender por qué funciona bi
 
 ## ¿Cómo?
 
-- Conceptos: entrenamiento, probabilidades, contexto
-- Demostración: mismo prompt, diferentes modelos, resultados diferentes
-- Limitaciones: alucinaciones, sesgos, falta de razonamiento real
-- Casos de uso apropiados/inapropiados
+**Conceptos:** Entrenamiento, probabilidades, contexto
+
+**Demostración:** Mismo prompt, diferentes modelos, resultados diferentes
+
+**Limitaciones:** Alucinaciones, sesgos, falta de razonamiento real
+
+**Casos de uso apropiados/inapropiados**

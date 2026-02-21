@@ -6,7 +6,7 @@ Tareas complejas requieren técnicas avanzadas. Chain-of-thought, few-shot, prom
 
 ## ¿Qué?
 
-Técnicas avanzadas de prompting para casos complejos.
+**Técnicas avanzadas de prompting para casos complejos.**
 
 ## ¿Para qué?
 
@@ -16,7 +16,10 @@ Técnicas avanzadas de prompting para casos complejos.
 
 ## ¿Cómo?
 
-- Chain-of-thought: "Piensa paso a paso"
-- Few-shot: Dar ejemplos de input/output deseado
-- Prompting estructurado: XML, JSON, formatos específicos
-- Ejercicio: Crear unidad didáctica completa con prompting estructurado
+**Chain-of-thought:** "Piensa paso a paso"
+
+**Few-shot:** Dar ejemplos de input/output deseado
+
+**Prompting estructurado:** XML, JSON, formatos específicos
+
+**Ejercicio:** Crear unidad didáctica completa con prompting estructurado

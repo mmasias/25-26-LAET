@@ -2,11 +2,11 @@
 
 ## ¿Por qué?
 
-DeepL/Google Translate existen. Ignorarlos = suicidio profesional. Usarlos ciegamente = mala praxis. Evaluarlos críticamente = competencia profesional.
+DeepL/Google Translate existen. Ignorarlos es suicidio profesional. Usarlos ciegamente es mala praxis. Evaluarlos críticamente es competencia profesional.
 
 ## ¿Qué?
 
-Traducción automática como herramienta. Post-edición. Detección automática de errores típicos.
+**Traducción automática como herramienta. Post-edición. Detección automática de errores típicos.**
 
 ## ¿Para qué?
 
@@ -16,7 +16,10 @@ Traducción automática como herramienta. Post-edición. Detección automática 
 
 ## ¿Cómo?
 
-- Comparación: Traducción humana vs DeepL vs Google Translate
-- Análisis de errores: falsos amigos, ambigüedad, contexto cultural
-- Ejercicio: Post-editar traducción automática con criterios profesionales
-- Herramientas: DeepL API + análisis de diferencias
+**Comparación:** Traducción humana vs DeepL vs Google Translate
+
+**Análisis de errores:** Falsos amigos, ambigüedad, contexto cultural
+
+**Ejercicio:** Post-editar traducción automática con criterios profesionales
+
+**Herramientas:** DeepL API + análisis de diferencias
