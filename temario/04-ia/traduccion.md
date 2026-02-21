@@ -20,4 +20,12 @@ Workflow profesional eficiente manteniendo calidad.
 
 **Post-edición:** comparar TA tradicional versus LLM
 
+**Problemas específicos de traducción con IA:**
+
+- **Alucinaciones terminológicas:** inventa términos que no existen
+- **Calco léxico:** traduce literal expresiones idiomáticas
+- **Pérdida de registro:** no distingue entre formal/informal
+- **Inconsistencia:** mismo término traducido de formas diferentes
+- **Contexto cultural:** referencias que no trasladan bien entre culturas
+
 **Ejercicio:** Traducir y localizar campaña marketing (inglés → español España versus México)

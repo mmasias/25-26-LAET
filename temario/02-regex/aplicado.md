@@ -18,17 +18,21 @@ Aplicación de regex a corpus reales con herramientas que manejan volúmenes may
 
 ## ¿Cómo?
 
-**Google Sheets + funciones regex**
+**Hojas de cálculo + funciones regex**
+
+Google Sheets, Excel 365, LibreOffice Calc incluyen funciones regex:
 
 - `REGEXEXTRACT(texto, regex)` - Extrae la primera coincidencia
 - `REGEXREPLACE(texto, regex, reemplazo)` - Reemplaza coincidencias
 - `REGEXMATCH(texto, regex)` - Devuelve TRUE/FALSE si coincide
 - `ARRAYFORMULA()` - Aplica a todo un rango
 
-**Caso 1:** Corpus de tweets → extraer anglicismos (buscando `\-ing`, `\-er`, `\-or`)
+Google Docs también permite búsqueda con regex en Editar → Buscar y reemplazar → Match using regular expressions.
 
-**Caso 2:** Corpus literario → identificar diálogos vs narración
+**Caso 1:** Corpus digital → extraer anglicismos (buscando `\-ing`, `\-er`, `\-or`)
 
-**Caso 3:** Corpus médico → extraer dosis medicamentos (`## mg`, `## ml`)
+**Caso 2:** Corpus de traducciones → identificar citas y referencias bibliográficas
+
+**Caso 3:** Corpus jurídico → extraer números de ley/artículo (`Art\. \d+`, `Ley \d+/\d{4}`)
 
 **Transición a Python:** Mismo regex en regexr.com vs en Notebook Colab

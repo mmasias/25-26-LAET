@@ -22,7 +22,7 @@
 | Sesión | Herramienta | Contenido |
 |--------|-------------|----------|
 | Básico | regexr.com | Limpieza de corpus |
-| Aplicado | Google Sheets | Extracción de candidatos a términos |
+| Aplicado | Hojas de cálculo | Extracción de candidatos a términos |
 | Avanzado | Python/Colab | Extracción de todas las coincidencias, límites |
 
 ### Bloque 2: PLN (5 sesiones)
@@ -85,19 +85,31 @@ Patrón típico de sesión (120 min):
 ## Errores frecuentes por bloque
 
 ### Regex
-- Confundir `.` con punto literal
-- No usar cuantificadores correctamente
-- Copy-paste sin comprender
+
+- **Error:** Confundir `.` con punto literal
+  - **Solución:** Usar `\.` para punto literal, `.` para cualquier carácter
+- **Error:** No usar cuantificadores correctamente
+  - **Solución:** `*` (0 o más), `+` (1 o más), `?` (0 o 1), `{n}` (exactamente n)
+- **Error:** Copy-paste sin comprender
+  - **Solución:** Desglosar cada parte del regex en regexr.com antes de usar
 
 ### PLN
-- Confundir token con palabra
-- Confundir lema con lowercasing
-- Olvidar procesar con nlp() antes de usar
+
+- **Error:** Confundir token con palabra
+  - **Solución:** Token es unidad lingüística (puede incluir puntuación adjunta)
+- **Error:** Confundir lema con lowercasing
+  - **Solución:** Lema es forma base de diccionario (cantar → cantar), no solo minúsculas
+- **Error:** Olvidar procesar con nlp() antes de usar
+  - **Solución:** Siempre `doc = nlp(texto)` antes de acceder a propiedades
 
 ### IA generativa
-- Antropomorfizar el LLM ("entiende que...")
-- Confianza ciega en las salidas
-- Prompts demasiado vagos
+
+- **Error:** Antropomorfizar el LLM ("entiende que...")
+  - **Solución:** Recordar que predice tokens, no "entiende"
+- **Error:** Confianza ciega en las salidas
+  - **Solución:** Verificar factualmente, especialmente fechas, nombres, datos
+- **Error:** Prompts demasiado vagos
+  - **Solución:** Incluir rol, contexto, tarea, formato, restricciones
 
 ## Recursos por bloque
 
@@ -111,9 +123,12 @@ Patrón típico de sesión (120 min):
 - [Modelos spaCy español](https://spacy.io/models/es)
 - [Curso spaCy](https://course.spacy.io/)
 - [displaCy demo](https://explosion.ai/demos/displacy)
+- [WebLicht](https://weblicht.hu-berlin.de/) - Herramienta web para análisis lingüístico
 
 ### IA generativa
 - [ChatGPT](https://chat.openai.com)
 - [Claude](https://claude.ai)
 - [Gemini](https://gemini.google.com)
 - [Cursos prompting](https://www.deeplearning.ai/short-courses/)
+- [MT-Bench](https://github.com/lm-sys/FastChat/tree/main/mt-bench) - Benchmark de modelos
+- [HELM](https://crfm.stanford.edu/helm/latest/) - Evaluación holística de modelos
