@@ -4,13 +4,11 @@
 
 Aplicar regex básico para limpiar un corpus de tweets/posts sobre lenguaje contemporáneo y extraer los primeros candidatos a términos.
 
-## Nivel: Simple
-
 ## Corpus de trabajo
 
 50 tweets/posts sobre lenguaje digital (proporcionado en clase).
 
-## Parte 1: Limpieza de corpus (30 min)
+## Parte 1: Limpieza de corpus
 
 El corpus contiene elementos que no aportan información lingüística:
 
@@ -45,7 +43,7 @@ Ghosting no es solo de citas. También en profesional cuando alguien desaparece.
 ¿Alguien más usa flexear? Antes era solo fitness, ahora está en todo...
 ```
 
-## Parte 2: Extracción de patrones básicos (30 min)
+## Parte 2: Extracción de patrones básicos
 
 **Tarea:** Encontrar en el corpus limpio:
 

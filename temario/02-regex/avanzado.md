@@ -16,14 +16,14 @@ Evitar frustraciones intentando resolver problemas con la herramienta equivocada
 
 ## ¿Cómo?
 
-**Casos donde regex no funciona:**
+### Casos donde regex no funciona
 
 - "Encontrar todas las frases en voz pasiva" → Se necesita parser sintáctico
 - "Extraer nombres de personas" → Se necesita NER
 - "Identificar sentimiento" → Se necesita análisis semántico
 - "Extraer todas las coincidencias, no solo la primera" → Se necesita Python
 
-**Python regex vs Google Sheets:**
+### Python regex vs Google Sheets
 
 | Función | Sheets | Python |
 |---------|--------|--------|
@@ -32,6 +32,10 @@ Evitar frustraciones intentando resolver problemas con la herramienta equivocada
 | Reemplazar | REGEXREPLACE | `re.sub()` |
 | Verificar si coincide | REGEXMATCH | `re.match()` / `re.fullmatch()` |
 
-**Ejercicio diagnóstico:** 10 tareas lingüísticas, decidir qué necesitan (regex / PLN / IA gen)
+### Hacia PLN
 
-**Introducción a lo que viene:** Para análisis profundo se necesita PLN.
+Para análisis profundo se necesita procesamiento de lenguaje natural.
+
+### Ejercicio
+
+[Regex avanzado - Ejercicio](avanzado-ejercicio.md)

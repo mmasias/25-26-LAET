@@ -18,7 +18,7 @@ Aplicación de regex a corpus reales con herramientas que manejan volúmenes may
 
 ## ¿Cómo?
 
-**Hojas de cálculo + funciones regex**
+### Funciones regex en hojas de cálculo
 
 Google Sheets, Excel 365, LibreOffice Calc incluyen funciones regex:
 
@@ -29,10 +29,14 @@ Google Sheets, Excel 365, LibreOffice Calc incluyen funciones regex:
 
 Google Docs también permite búsqueda con regex en Editar → Buscar y reemplazar → Match using regular expressions.
 
+### Ejemplos de aplicación
+
 **Caso 1:** Corpus digital → extraer anglicismos (buscando `\-ing`, `\-er`, `\-or`)
 
 **Caso 2:** Corpus de traducciones → identificar citas y referencias bibliográficas
 
 **Caso 3:** Corpus jurídico → extraer números de ley/artículo (`Art\. \d+`, `Ley \d+/\d{4}`)
 
-**Transición a Python:** Mismo regex en regexr.com vs en Notebook Colab
+### Ejercicio
+
+[Regex aplicado - Ejercicio](aplicado-ejercicio.md)
