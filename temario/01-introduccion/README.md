@@ -6,6 +6,8 @@ El perfil de Graduado en Lenguas Aplicadas ha cambiado drásticamente. Empresas 
 
 La tecnología no es neutra. Quien no entiende estas herramientas se convierte en usuario pasivo, limitando sus oportunidades profesionales. Quien las domina puede diseñar procesos eficientes, ofrecer servicios de mayor valor y adaptarse a un mercado en constante cambio.
 
+Caso real: https://github.com/mmasias/u6-VII-traslation-project
+
 ### El profesional de la lengua hoy
 
 - Datos del mercado: qué piden las empresas (traducción técnica, localización, gestión de contenido, NLP)
