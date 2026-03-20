@@ -51,6 +51,8 @@ Tres de esas ramas articulan el contenido:
 
 </div>
 
+Conocer estas herramientas no es un fin en sí mismo — es lo que habilitan lo que importa.
+
 ## ¿Para qué?
 
 Estas herramientas habilitan tareas que forman parte del trabajo profesional real en el ámbito lingüístico:
@@ -69,17 +71,15 @@ El contenido se organiza en tres bloques: expresiones regulares, procesamiento d
 
 <div align=center>
 
-|Tecnología|Nivel de abstracción|Opera sobre|
-|-|-|-|
-|**Expresiones regulares**|Carácter y patrón|Forma superficial del texto|
-|**Procesamiento de Lenguaje Natural (PLN)**|Palabra y oración|Contenido lingüístico: morfología, sintaxis, entidades|
-|**IA generativa**|Discurso y significado|Sentido, contexto y producción|
+|Tecnología|Nivel de abstracción|Opera sobre|Qué tocaremos|
+|-|-|-|-|
+|**Expresiones regulares**|Carácter y patrón|Forma superficial del texto|Detectar fechas, limpiar URLs, extraer menciones — en regexr.com, Google Sheets y Python|
+|**Procesamiento de Lenguaje Natural (PLN)**|Palabra y oración|Contenido lingüístico: morfología, sintaxis, entidades|Tokenizar, etiquetar categorías gramaticales, reconocer entidades — con spaCy en Google Colab|
+|**IA generativa**|Discurso y significado|Sentido, contexto y producción|Generar ejercicios, reescribir en otro registro, traducir con contexto cultural — con Claude, ChatGPT y Gemini|
 
 </div>
 
-Cada capa construye sobre la anterior. La metáfora del iceberg es útil: regex trabaja en la superficie visible; PLN y la IA trabajan en capas cada vez más profundas.
-
-La tabla describe niveles, el siguiente caso muestra cómo esos niveles se encadenan en un flujo de trabajo real.
+Cada capa construye sobre la anterior. La tabla describe niveles; el siguiente caso muestra cómo esos niveles se encadenan en un flujo de trabajo real.
 
 ### A day in the life
 
@@ -104,13 +104,16 @@ Cada paso produce un output que alimenta el siguiente. El profesional de la leng
 
 > Este flujo es la versión ordenada. Pero, [*is this the real life?*](articulos/day-in-the-life-real.md)
 
-Un caso real de este tipo de flujo puede consultarse en: https://github.com/mmasias/u6-VII-traslation-project
-
-
 ## ¿Y ahora qué?
 
 Herramientas que se utilizarán a lo largo de estas sesiones:
 
-- [regexr.com](https://regexr.com/) — entorno visual para expresiones regulares
-- [displaCy](https://explosion.ai/demos/displacy) — visualización de análisis PLN con spaCy
-- [Claude](https://claude.ai) / [ChatGPT](https://chatgpt.com) — interfaces de IA generativa
+|Expresiones regulares|PLN|Traducción|IA generativa|
+|:-:|:-:|:-:|:-:|
+[regexr.com](https://regexr.com/)<br><sub>entorno visual e interactivo para construir y probar patrones|[Google Colab](https://colab.research.google.com)<br><sub>entorno Python en el navegador, sin instalación|[DeepL](https://www.deepl.com)<br><sub>traducción automática neural, referencia en el sector profesional|[Claude](https://claude.ai)<br><sub>LLM de Anthropic; fuerte en análisis de documentos y contexto largo
+[Google Sheets](https://sheets.google.com)<br><sub>hojas de cálculo con funciones regex nativas|[spaCy](https://spacy.io)<br><sub>biblioteca de PLN; se ejecuta en Colab|[Google Translate](https://translate.google.com)<br><sub>traducción automática de referencia generalista|[ChatGPT](https://chatgpt.com)<br><sub>LLM de OpenAI; fuerte en razonamiento y tareas complejas
+[Google Docs](https://docs.google.com)<br><sub>buscar y reemplazar con expresiones regulares|[displaCy](https://explosion.ai/demos/displacy)<br><sub>visualización interactiva de análisis PLN||[Le Chat](https://chat.mistral.ai)<br><sub>LLM de Mistral; modelo europeo de referencia
+
+### Referencia
+
+- [Caso real: u6-VII-traslation-project](https://github.com/mmasias/u6-VII-traslation-project) — flujo lingüístico-tecnológico aplicado
