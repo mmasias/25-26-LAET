@@ -8,7 +8,7 @@ El perfil del graduado en lenguas ha cambiado drásticamente. Empresas e institu
 
 |Corpus lingüísticos|Traducción asistida|Análisis de datos|IA generativa|
 |-|-|-|-|
-|Colecciones de textos reales usadas para analizar el lenguaje en contexto|Herramientas que combinan memoria de traducción, terminología y automatización|Extracción de patrones y métricas a partir de grandes volúmenes de texto|Sistemas capaces de generar, transformar y adaptar contenido lingüístico|
+|<sub>Colecciones de textos reales usadas para analizar el lenguaje en contexto|<sub>Herramientas que combinan memoria de traducción, terminología y automatización|<sub>Extracción de patrones y métricas a partir de grandes volúmenes de texto|<sub>Sistemas capaces de generar, transformar y adaptar contenido lingüístico|
 
 </div>
 
@@ -35,7 +35,7 @@ Las herramientas que integran el perfil tecnológico del profesional de la lengu
 
 </div>
 
-Las ramas marcadas en verde son las que cubre este curso. Las restantes existen y tienen relevancia profesional; quedan fuera del alcance de estas sesiones, pero el mapa es útil para situar lo que se trabaja aquí dentro de un contexto más amplio.
+Las ramas marcadas en verde son las que cubren estos módulos y estas sesiones. Las restantes existen y tienen relevancia profesional; quedan fuera del alcance aquí, pero el mapa es útil para situar lo que se trabaja dentro de un contexto más amplio.
 
 Tres de esas ramas articulan estos módulos:
 
