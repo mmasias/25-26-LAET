@@ -2,61 +2,70 @@
 
 ## ¿Por qué?
 
-El perfil de Graduado en Lenguas Aplicadas ha cambiado drásticamente. Empresas e instituciones exigen profesionales que no solo dominen idiomas, sino que sepan trabajar con herramientas tecnológicas: corpus lingüísticos, traducción asistida, análisis de datos, IA generativa.
+El perfil del graduado en lenguas ha cambiado drásticamente. Empresas e instituciones demandan profesionales que no solo dominen idiomas, sino que sepan trabajar con herramientas tecnológicas: corpus lingüísticos, traducción asistida, análisis de datos, IA generativa.
 
-La tecnología no es neutra. Quien no entiende estas herramientas se convierte en usuario pasivo, limitando sus oportunidades profesionales. Quien las domina puede diseñar procesos eficientes, ofrecer servicios de mayor valor y adaptarse a un mercado en constante cambio.
-
-Caso real: https://github.com/mmasias/u6-VII-traslation-project
+La tecnología no es neutra. Quien no comprende estas herramientas se convierte en usuario pasivo, con opciones profesionales limitadas. Quien las domina puede diseñar procesos eficientes, ofrecer servicios de mayor valor y adaptarse a un mercado en constante cambio.
 
 ### El profesional de la lengua hoy
 
-- Datos del mercado: qué piden las empresas (traducción técnica, localización, gestión de contenido, NLP)
-- Perfiles existentes: lingüista computacional, especialista en localización, terminólogo automatizado
-- El "abismo": lo que enseñamos vs lo que demanda el mercado
-- **Demostración en vivo:** Búsqueda conjunta de ofertas de empleo en tiempo real, análisis de habilidades tecnológicas requeridas
+Un recorrido por las ofertas de empleo actuales en traducción, localización y gestión de contenido revela una constante: junto a la competencia lingüística, se exigen capacidades técnicas. Términos como *corpus*, *NLP*, *herramientas CAT*, *automatización* o *IA generativa* aparecen con creciente frecuencia en perfiles como:
+
+- Lingüista computacional
+- Especialista en localización
+- Terminólogo con automatización
+- Gestor de contenido técnico
+
+Existe una brecha visible entre la formación lingüística tradicional y lo que el mercado laboral demanda. Este curso aborda esa brecha de forma práctica.
 
 ## ¿Qué?
 
-Tecnologías de procesamiento de lenguaje: expresiones regulares (para limpiar y estructurar), procesamiento de lenguaje natural o PLN (para analizar y extraer información) e IA generativa (para crear y transformar contenido). Tres herramientas complementarias que todo profesional de la lengua debería conocer.
+Tres tecnologías complementarias articulan el curso:
+
+| Tecnología | Para qué sirve |
+|---|---|
+| **Expresiones regulares** | Limpiar y estructurar texto |
+| **Procesamiento de Lenguaje Natural (PLN)** | Analizar y extraer información |
+| **IA generativa** | Generar y transformar contenido |
+
+No son tecnologías alternativas, sino capas que se combinan. Un flujo de trabajo profesional real las usa en secuencia.
 
 ## ¿Para qué?
 
-- Visibilizar el mercado laboral real (localización, gestión terminológica, análisis de corpus, contenido técnico)
-- Entender qué resuelve cada tecnología y cuándo conviene usarla
-- Evitar la "tecnofilia acrítica" y la "tecnofobia paralítica": formar profesionales con criterio propio
-
-### A day in the life...
-
-> "Una editorial necesita crear ejercicios de vocabulario a partir de un corpus de artículos periodísticos."
-
-1. Regex → limpiar metadatos del corpus
-2. PLN → extraer entidades y lemas
-3. IA generativa → generar ejercicios a partir de los términos extraídos
-4. Validación humana → corregir y refinar
+- Visibilizar el mercado laboral real en el ámbito lingüístico-tecnológico
+- Entender qué resuelve cada tecnología y en qué contexto conviene aplicarla
+- Desarrollar criterio propio: ni tecnofilia acrítica ni tecnofobia paralizante
 
 ## ¿Cómo?
 
-### Temario
+### El arco del curso
 
-1. **Regex** → "Limpiar y estructurar texto"
-   - Ejemplo en directo: corpus con URLs sucias → regexr.com → corpus limpio
+**Regex → PLN → IA generativa** no es una secuencia arbitraria. Cada tecnología resuelve un nivel distinto del problema:
 
-2. **PLN** → "Analizar y extraer información"
-   - Ejemplo en directo: spaCy → texto → entidades, categorías gramaticales
+1. **Regex** — opera sobre la forma del texto: caracteres, patrones, estructura superficial.
+2. **PLN** — opera sobre el contenido lingüístico: morfología, sintaxis, entidades, significado.
+3. **IA generativa** — opera sobre el sentido y la producción: genera, transforma, adapta.
 
-3. **IA generativa** → "Generar y transformar contenido"
-   - Ejemplo en directo: prompt → ejercicio didáctico, traducción con estilo
+La metáfora del iceberg es útil: regex trabaja en la superficie visible; PLN y la IA trabajan en capas cada vez más profundas.
 
-**Metáfora visual:** El iceberg de la automatización lingüística.
+### A day in the life
 
-### Cierre y expectativas
+> Una editorial necesita crear ejercicios de vocabulario a partir de un corpus de artículos periodísticos.
 
-- Encuesta inicial: ¿qué usan ya? ¿qué les da miedo? ¿qué quieren aprender?
-- Recursos: lista de herramientas para explorar por su cuenta
-- Próxima sesión: Regex básico — traed un texto "sucio" que queráis limpiar
+Un flujo de trabajo profesional podría ser:
 
-## Y ahora, ¿qué?
+1. **Regex** → limpiar metadatos, URLs y ruido del corpus
+2. **PLN** → extraer entidades, lemas y categorías gramaticales
+3. **IA generativa** → generar ejercicios a partir de los términos extraídos
+4. **Validación humana** → corregir, refinar y publicar
 
-- [regexr.com](https://regexr.com/)
-- [spaCy demo](https://explosion.ai/demos/displacy)
-- Sacar cuentas en LLMs ChatGPT o Claude libre para demo IA
+Cada paso produce un output que alimenta el siguiente. El profesional de la lengua diseña y supervisa el proceso; las herramientas lo ejecutan.
+
+Un caso real de este tipo de flujo puede consultarse en: https://github.com/mmasias/u6-VII-traslation-project
+
+## ¿Y ahora qué?
+
+Herramientas que se utilizarán a lo largo del curso:
+
+- [regexr.com](https://regexr.com/) — entorno visual para expresiones regulares
+- [displaCy](https://explosion.ai/demos/displacy) — visualización de análisis PLN con spaCy
+- [Claude](https://claude.ai) / [ChatGPT](https://chatgpt.com) — interfaces de IA generativa
