@@ -18,10 +18,12 @@ La tecnología no es neutra. Quien no comprende estas herramientas se convierte 
 
 Un recorrido por las ofertas de empleo actuales en traducción, localización y gestión de contenido revela una constante: junto a la competencia lingüística, se exigen capacidades técnicas. Términos como *corpus*, *NLP*, *herramientas CAT*, *automatización* o *IA generativa* aparecen con creciente frecuencia en perfiles como:
 
-- Lingüista computacional
-- Especialista en localización
-- Terminólogo con automatización
-- Gestor de contenido técnico
+|Perfil|Qué hace|
+|-|-|
+|***Lingüista computacional***|Diseña y entrena sistemas que procesan lenguaje: clasificadores, extractores, modelos de traducción|
+|***Especialista en localización***|Adapta productos digitales a mercados locales: interfaz, contenido, culturalización|
+|***Terminólogo con automatización***|Construye y mantiene bases terminológicas; extrae términos de corpus con herramientas NLP|
+|***Gestor de contenido técnico***|Produce y estructura documentación técnica, a menudo con asistencia de IA generativa|
 
 Existe una brecha visible entre la formación lingüística tradicional y lo que el mercado laboral demanda. Este curso aborda esa brecha de forma práctica.
 
@@ -41,11 +43,11 @@ Tres de esas ramas articulan estos módulos:
 
 <div align=center>
 
-| Tecnología | Nivel de abstracción | Para qué sirve |
-| --- | --- | --- |
-| **Expresiones regulares** | Carácter y patrón | Limpiar y estructurar texto |
-| **Procesamiento de Lenguaje Natural (PLN)** | Palabra y oración | Analizar y extraer información |
-| **IA generativa** | Discurso y significado | Generar y transformar contenido |
+|Tecnología|Nivel de abstracción|Para qué sirve|
+|-|-|-|
+|**Expresiones regulares**|Carácter y patrón|Limpiar y estructurar texto|
+|**Procesamiento de Lenguaje Natural (PLN)**|Palabra y oración|Analizar y extraer información|
+|**IA generativa**|Discurso y significado|Generar y transformar contenido|
 
 </div>
 
