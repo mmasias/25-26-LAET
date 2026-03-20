@@ -2,7 +2,7 @@
 
 ## ¿Por qué?
 
-ChatGPT/Claude/Gemini son omnipresentes. Usarlos sin entender cómo funcionan produce resultados impredecibles y errores graves.
+ChatGPT, Claude y Gemini son herramientas omnipresentes en el entorno profesional. Su uso sin comprensión del mecanismo subyacente produce resultados impredecibles y errores de consecuencias graves.
 
 ## ¿Qué?
 

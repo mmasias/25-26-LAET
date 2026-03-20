@@ -2,7 +2,7 @@
 
 ## ¿Por qué?
 
-DeepL/Google Translate existen. Ignorarlos es suicidio profesional. Usarlos ciegamente es mala praxis. Evaluarlos críticamente es competencia profesional.
+DeepL y Google Translate son herramientas consolidadas en el mercado. Prescindir de ellas supone una desventaja competitiva; utilizarlas sin criterio constituye mala praxis. La evaluación crítica de sus resultados es una competencia profesional exigible.
 
 ## ¿Qué?
 

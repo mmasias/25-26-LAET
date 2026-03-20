@@ -2,7 +2,7 @@
 
 ## ¿Por qué?
 
-Las computadoras no leen como humanos. Necesitan texto estructurado: palabra por palabra, oración por oración. Sin esta estructuración, cualquier análisis automatizado es imposible.
+Los sistemas computacionales no procesan texto como lo hace un lector humano. Requieren texto estructurado: unidad por unidad, oración por oración. Sin esta estructuración previa, cualquier análisis automatizado es inviable.
 
 ## ¿Qué?
 

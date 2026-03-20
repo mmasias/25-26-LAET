@@ -29,9 +29,9 @@ Analizar categorías gramaticales en corpus extensos manualmente es imposible. S
 
 Demo: texto → etiquetas POS → análisis
 
-**Ellos interpretan las categorías** (lingüistas validando los resultados automáticos)
+**Validación humana:** los lingüistas interpretan y validan los resultados automáticos
 
-**Ejercicio:** Analizar corpus de ensayos estudiantiles → identificar patrones de error gramatical
+**Ejercicio:** Analizar corpus de ensayos → identificar patrones de error gramatical
 
 **Visualización:** árboles sintácticos con displaCy
 

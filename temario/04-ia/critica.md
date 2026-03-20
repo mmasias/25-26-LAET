@@ -2,7 +2,7 @@
 
 ## ¿Por qué?
 
-Tecnología no es neutra. Tiene sesgos, limitaciones, implicaciones éticas. Profesionales deben ser críticos, no tecnófilos acríticos.
+La tecnología no es neutra. Incorpora sesgos, limitaciones e implicaciones éticas. El ejercicio profesional responsable exige una postura crítica, no la adopción acrítica de herramientas.
 
 ## ¿Qué?
 
@@ -10,7 +10,7 @@ Tecnología no es neutra. Tiene sesgos, limitaciones, implicaciones éticas. Pro
 
 ## ¿Para qué?
 
-Formar profesionales responsables, no operadores acríticos de tecnología.
+Desarrollar una perspectiva crítica sobre las tecnologías analizadas, con atención a sus límites, sesgos e implicaciones éticas.
 
 ## ¿Cómo?
 
@@ -20,6 +20,6 @@ Formar profesionales responsables, no operadores acríticos de tecnología.
 
 **Ética:** propiedad intelectual, autoría, transparencia
 
-**Debate:** ¿Deben declarar estudiantes uso de IA en trabajos académicos?
+**Debate:** ¿Debe declararse el uso de IA en trabajos académicos y profesionales?
 
-**Síntesis final:** qué se llevan de este módulo
+**Síntesis final:** balance de competencias adquiridas en el módulo

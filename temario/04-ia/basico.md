@@ -2,7 +2,7 @@
 
 ## ¿Por qué?
 
-Calidad del output depende 90% de calidad del prompt. "Tradúceme esto" versus prompt estructurado genera resultados radicalmente diferentes.
+La calidad del output depende en un 90% de la calidad del prompt. Un prompt genérico del tipo "traducir este texto" frente a un prompt estructurado produce resultados radicalmente diferentes.
 
 ## ¿Qué?
 

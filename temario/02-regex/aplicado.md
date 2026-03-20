@@ -2,7 +2,7 @@
 
 ## ¿Por qué?
 
-Casos reales son más complejos que ejemplos didácticos. Corpus grandes no caben en regexr.com. Necesitan procesar archivos reales, extraer información estructurada y reutilizar regexes.
+Los casos reales son más complejos que los ejemplos didácticos. Corpus grandes exceden las capacidades de regexr.com. Se requiere procesar archivos reales, extraer información estructurada y reutilizar expresiones regulares.
 
 ## ¿Qué?
 
