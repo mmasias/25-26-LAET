@@ -2,7 +2,15 @@
 
 ## ¿Por qué?
 
-El perfil del graduado en lenguas ha cambiado drásticamente. Empresas e instituciones demandan profesionales que no solo dominen idiomas, sino que sepan trabajar con herramientas tecnológicas: corpus lingüísticos, traducción asistida, análisis de datos, IA generativa.
+El perfil del graduado en lenguas ha cambiado drásticamente. Empresas e instituciones demandan profesionales que no solo dominen idiomas, sino que sepan trabajar con herramientas tecnológicas:
+
+<div align=center>
+
+|Corpus lingüísticos|Traducción asistida|Análisis de datos|IA generativa|
+|-|-|-|-|
+|Colecciones de textos reales usadas para analizar el lenguaje en contexto|Herramientas que combinan memoria de traducción, terminología y automatización|Extracción de patrones y métricas a partir de grandes volúmenes de texto|Sistemas capaces de generar, transformar y adaptar contenido lingüístico|
+
+</div>
 
 La tecnología no es neutra. Quien no comprende estas herramientas se convierte en usuario pasivo, con opciones profesionales limitadas. Quien las domina puede diseñar procesos eficientes, ofrecer servicios de mayor valor y adaptarse a un mercado en constante cambio.
 
@@ -19,15 +27,29 @@ Existe una brecha visible entre la formación lingüística tradicional y lo que
 
 ## ¿Qué?
 
-Tres tecnologías complementarias articulan el curso:
+Las herramientas que integran el perfil tecnológico del profesional de la lengua forman parte de una disciplina consolidada: la **ingeniería lingüística**. Se trata del conjunto de métodos y sistemas que aplican técnicas computacionales al procesamiento, análisis y generación del lenguaje natural.
 
-| Tecnología | Para qué sirve |
-|---|---|
-| **Expresiones regulares** | Limpiar y estructurar texto |
-| **Procesamiento de Lenguaje Natural (PLN)** | Analizar y extraer información |
-| **IA generativa** | Generar y transformar contenido |
+<div align=center>
 
-No son tecnologías alternativas, sino capas que se combinan. Un flujo de trabajo profesional real las usa en secuencia.
+![Mapa de la ingeniería lingüística](/images/modelosUML/ingenieria-linguistica.svg)
+
+</div>
+
+Las ramas marcadas en verde son las que cubre este curso. Las restantes existen y tienen relevancia profesional; quedan fuera del alcance de estas sesiones, pero el mapa es útil para situar lo que se trabaja aquí dentro de un contexto más amplio.
+
+Tres de esas ramas articulan estos módulos:
+
+<div align=center>
+
+| Tecnología | Nivel de abstracción | Para qué sirve |
+| --- | --- | --- |
+| **Expresiones regulares** | Carácter y patrón | Limpiar y estructurar texto |
+| **Procesamiento de Lenguaje Natural (PLN)** | Palabra y oración | Analizar y extraer información |
+| **IA generativa** | Discurso y significado | Generar y transformar contenido |
+
+</div>
+
+La secuencia no es arbitraria: cada capa opera a un nivel de abstracción mayor y construye sobre la anterior.
 
 ## ¿Para qué?
 

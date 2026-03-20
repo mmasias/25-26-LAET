@@ -1,0 +1,53 @@
+@startuml
+
+hide circle
+hide members
+'skinparam linetype polyline
+
+class "<b>Ingeniería lingüística" as IL
+class "<b>Procesamiento de texto" as PT #d4edda
+class "<b>Procesamiento de\nLenguaje Natural" as PLN #d4edda
+class "<b>Generación de\nLenguaje Natural" as GLN #d4edda
+class "Reconocimiento\ndel habla" as ASR
+class "Síntesis de voz" as TTS
+class "Lexicografía\ncomputacional" as LEX
+
+class "Expresiones regulares" as RE #d4edda
+class "Normalización\nde corpus" as NORM #d4edda
+
+class "Tokenización" as TOK #d4edda
+class "Análisis morfosintáctico\n(POS tagging)" as POS #d4edda
+class "Reconocimiento de\nentidades (NER)" as NER #d4edda
+class "Análisis terminológico" as TERM #d4edda
+class "Similitud semántica" as SIM #d4edda
+class "Traducción automática" as TA #d4edda
+
+class "IA generativa\n(LLMs)" as LLM #d4edda
+class "Prompting" as PROMPT #d4edda
+class "Traducción y\nlocalización" as LOC #d4edda
+class "Creación de\ncontenido lingüístico" as CCL #d4edda
+
+IL <|-- PT
+IL <|--- PLN
+IL <|-- GLN
+IL <|-- ASR
+IL <|-- TTS
+IL <|-- LEX
+
+PT <|-- RE
+PT <|-- NORM
+
+PLN <|-- TOK
+PLN <|-- POS
+PLN <|-- NER
+PLN <|--- TERM
+PLN <|--- SIM
+PLN <|--- TA
+
+GLN <|-- LLM
+
+LLM <|-- PROMPT
+LLM <|-- LOC
+LLM <|-- CCL
+
+@enduml
