@@ -1,0 +1,32 @@
+@startuml
+
+state "CORPUS\nORIGINAL" as Raw
+state "CORPUS\nUNIFICADO" as Unified
+state "CORPUS\nLIMPIO" as Clean
+state "TÉRMINOS\nEXTRAÍDOS" as Terms
+state "EJERCICIOS\nGENERADOS" as Draft
+state "EJERCICIOS\nVALIDADOS" as Published
+
+[*] --> Raw
+
+Raw --> Unified : preprocesamiento()\nunificar formatos, encodings, fuentes
+Unified --> Raw : preprocesamiento()\nfalta material, corpus insuficiente
+
+Unified --> Clean : regex()\nlimpiar metadatos, URLs y ruido
+Clean --> Unified : regex()\nruido residual — otra pasada
+
+Clean --> Terms : pln()\nextraer lemas, entidades y categorías
+Terms --> Clean : pln()\ncorpus aún sucio, resultados inútiles
+Terms --> Unified : pln()\ndominio no reconocido, cambiar corpus
+Terms --> Draft : ia_generativa()\ngenerar ejercicios a partir de términos
+
+Draft --> Terms : ia_generativa()\nalucinaciones — revisar términos de entrada
+Draft --> Draft : ia_generativa()\nrefinamiento de prompt
+Draft --> Raw : validacion_humana()\ncorpus mal seleccionado desde el origen
+
+Draft --> Published : validacion_humana()\ncorregir, refinar y publicar
+Published --> Draft : validacion_humana()\noutput insatisfactorio — regenerar
+
+Published --> [*]
+
+@enduml

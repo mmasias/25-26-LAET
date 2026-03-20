@@ -1,0 +1,18 @@
+@startuml
+
+state "CORPUS\nORIGINAL" as Raw
+state "CORPUS\nLIMPIO" as Clean
+state "TÉRMINOS\nEXTRAÍDOS" as Terms
+state "EJERCICIOS\nGENERADOS" as Draft
+state "EJERCICIOS\nVALIDADOS" as Published
+
+[*] -r-> Raw
+
+Raw -r-> Clean : regex()\nlimpiar metadatos, URLs y ruido
+Clean -d-> Terms : pln()\nextraer lemas, entidades y categorías
+Terms -l-> Draft : ia_generativa()\ngenerar ejercicios a partir de términos
+Draft -d-> Published : validacion_humana()\ncorregir, refinar y publicar
+
+Published --r-> [*]
+
+@enduml
