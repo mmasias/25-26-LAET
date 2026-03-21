@@ -1,0 +1,48 @@
+@startuml
+
+state "IngenieriaLingüìstica" as IL {
+
+}
+state "ProcesamientoDeTexto" as PT {
+    state "Expresiones\nregulares"  #d4edda
+    state "Normalización\nde corpus"  #d4edda
+
+}
+state "Generación de lenguaje natural" as GL {
+    state "IA generativa" as IAG  #d4edda {
+        state "Prompting" as P  #d4edda
+        state "Traducción\ny localización" as T  #d4edda
+        state "Creación de\ncontenido lingüístico" as CCL #d4edda
+    } 
+}
+
+state "Procesamiento de lenguaje natural" as PL {
+state "Tokenización" as TOK #d4edda
+state "Análisis morfosintáctico\n(POS tagging)" as POS #d4edda
+state "Reconocimiento de\nentidades (NER)" as NER #d4edda
+state "Análisis terminológico" as TERM #d4edda
+state "Similitud semántica" as SIM #d4edda
+state "Traducción automática" as TA #d4edda
+}
+
+state Otros {
+
+state "Reconocimiento del habla" as RDH
+state "Síntesis de voz" as SDV
+state "Lexicografía computacional" as LXC
+}
+
+
+IL --> PT
+IL --> GL
+IL --> PL
+
+TOK -d[hidden]-> NER
+POS -d[hidden]->  TERM
+SIM -d[hidden]-> TA
+
+GL -d[hidden]-> RDH
+RDH -r[hidden]-> SDV
+RDH -l[hidden]-> LXC
+
+@enduml
