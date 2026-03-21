@@ -87,7 +87,7 @@ Cada capa construye sobre la anterior. La tabla describe niveles; el siguiente c
 
 > Una editorial necesita crear ejercicios de vocabulario a partir de un corpus de artículos periodísticos.
 
-Un flujo de trabajo profesional podría ser:
+Un [flujo de trabajo profesional](articulos/flujo-editorial.md) podría ser:
 
 <table>
 <tr><td valign=top>
