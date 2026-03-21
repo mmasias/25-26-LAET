@@ -34,8 +34,8 @@ Las herramientas que integran el perfil tecnológico del profesional de la lengu
 <div align=center>
 
 |![Mapa de la ingeniería lingüística](/images/modelosUML/ingenieria-linguistica-alternativo.svg)
-|-
-|Mapa de la ingeniería lingüística / <sub>[Código fuente](/modelosUML/ingenieria-linguistica-alternativo.puml)
+|-:
+|**Mapa de la ingeniería lingüística** / <sub>[*Código fuente*](/modelosUML/ingenieria-linguistica-alternativo.puml)
 
 </div>
 
