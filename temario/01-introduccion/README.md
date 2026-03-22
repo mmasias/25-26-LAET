@@ -27,6 +27,8 @@ Un recorrido por las ofertas de empleo actuales en traducción, localización y 
 
 Existe una brecha visible entre la formación lingüística tradicional y lo que el mercado laboral demanda. Estas sesiones abordan esa brecha de forma práctica.
 
+> En 1998, un proyecto para un periódico local permitía a los ciudadanos de esa ciudad dispersos por el mundo buscarse entre sí. No usaba base de datos sino que los registros se almacenaban en un fichero de texto plano separado por punto y coma. El programa decodificaba caracteres especiales, normalizaba mayúsculas, buscaba coincidencias parciales y fragmentaba cadenas - cuatro operaciones que la lingüística computacional reconoce como propias. El autor no sabía que estaba haciendo lingüística computacional. La conexión entre lengua y tecnología no es reciente: lo reciente son las herramientas accesibles.
+
 ## ¿Qué?
 
 Las herramientas que integran el perfil tecnológico del profesional de la lengua forman parte de una disciplina consolidada: la **ingeniería lingüística**. Se trata del conjunto de métodos y sistemas que aplican técnicas computacionales al procesamiento, análisis y generación del lenguaje natural.
@@ -53,7 +55,7 @@ Tres de esas ramas articulan el contenido:
 
 </div>
 
-Conocer estas herramientas no es un fin en sí mismo — es lo que habilitan lo que importa.
+Conocer estas herramientas no es un fin en sí mismo - es lo que habilitan lo que importa.
 
 ## ¿Para qué?
 
@@ -75,9 +77,9 @@ El contenido se organiza en tres bloques: expresiones regulares, procesamiento d
 
 |Tecnología|Nivel de abstracción|Opera sobre|Qué tocaremos|
 |-|-|-|-|
-|**Expresiones regulares**|Carácter y patrón|Forma superficial del texto|Detectar fechas, limpiar URLs, extraer menciones — en regexr.com, Google Sheets y Python|
-|**Procesamiento de Lenguaje Natural (PLN)**|Palabra y oración|Contenido lingüístico: morfología, sintaxis, entidades|Tokenizar, etiquetar categorías gramaticales, reconocer entidades — con spaCy en Google Colab|
-|**IA generativa**|Discurso y significado|Sentido, contexto y producción|Generar ejercicios, reescribir en otro registro, traducir con contexto cultural — con Claude, ChatGPT y Gemini|
+|**Expresiones regulares**|Carácter y patrón|Forma superficial del texto|Detectar fechas, limpiar URLs, extraer menciones - en regexr.com, Google Sheets y Python|
+|**Procesamiento de Lenguaje Natural (PLN)**|Palabra y oración|Contenido lingüístico: morfología, sintaxis, entidades|Tokenizar, etiquetar categorías gramaticales, reconocer entidades - con spaCy en Google Colab|
+|**IA generativa**|Discurso y significado|Sentido, contexto y producción|Generar ejercicios, reescribir en otro registro, traducir con contexto cultural - con Claude, ChatGPT y Gemini|
 
 </div>
 
@@ -118,4 +120,5 @@ Herramientas que se utilizarán a lo largo de estas sesiones:
 
 ### Referencia
 
-- [Caso real: u6-VII-traslation-project](https://github.com/mmasias/u6-VII-traslation-project) — flujo lingüístico-tecnológico aplicado
+- [Caso real: u6-VII-traslation-project](https://github.com/mmasias/u6-VII-traslation-project) - flujo lingüístico-tecnológico aplicado
+- [Expresiones regulares en producción: arqueología de un programa de 1998](https://github.com/mmasias/DirectorioPiuranos/blob/main/ANALISIS.md) - análisis técnico-lingüístico de un CGI Perl que hacía lingüística computacional sin saberlo
