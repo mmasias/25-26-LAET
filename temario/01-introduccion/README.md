@@ -25,9 +25,7 @@ Un recorrido por las ofertas de empleo actuales en traducción, localización y 
 |***Terminólogo con automatización***|Construye y mantiene bases terminológicas; extrae términos de corpus con herramientas NLP|
 |***Gestor de contenido técnico***|Produce y estructura documentación técnica, a menudo con asistencia de IA generativa|
 
-Existe una brecha visible entre la formación lingüística tradicional y lo que el mercado laboral demanda. Estas sesiones abordan esa brecha de forma práctica.
-
-> En 1998, un proyecto para un periódico local permitía a los ciudadanos de esa ciudad dispersos por el mundo buscarse entre sí. No usaba base de datos sino que los registros se almacenaban en un fichero de texto plano separado por punto y coma. El programa decodificaba caracteres especiales, normalizaba mayúsculas, buscaba coincidencias parciales y fragmentaba cadenas - cuatro operaciones que la lingüística computacional reconoce como propias. El autor no sabía que estaba haciendo lingüística computacional. La conexión entre lengua y tecnología no es reciente: lo reciente son las herramientas accesibles.
+Existe una brecha visible entre la formación lingüística tradicional y lo que el mercado laboral demanda: estas sesiones buscan abordar esa brecha de forma práctica.
 
 ## ¿Qué?
 
@@ -66,6 +64,8 @@ Estas herramientas habilitan tareas que forman parte del trabajo profesional rea
 - Automatizar partes del flujo de traducción y post-edición
 - Generar contenido lingüístico: ejercicios, resúmenes, adaptaciones de registro
 - Evaluar críticamente herramientas y sus limitaciones, en lugar de usarlas como cajas negras
+
+- [Ejemplos](articulos/ejemplos.md)
 
 ## ¿Cómo?
 
@@ -117,8 +117,3 @@ Herramientas que se utilizarán a lo largo de estas sesiones:
 [regexr.com](https://regexr.com/)<br><sub>entorno visual e interactivo para construir y probar patrones|[Google Colab](https://colab.research.google.com)<br><sub>entorno Python en el navegador, sin instalación|[DeepL](https://www.deepl.com)<br><sub>traducción automática neural, referencia en el sector profesional|[Claude](https://claude.ai)<br><sub>LLM de Anthropic; fuerte en análisis de documentos y contexto largo
 [Google Sheets](https://sheets.google.com)<br><sub>hojas de cálculo con funciones regex nativas|[spaCy](https://spacy.io)<br><sub>biblioteca de PLN; se ejecuta en Colab|[Google Translate](https://translate.google.com)<br><sub>traducción automática de referencia generalista|[ChatGPT](https://chatgpt.com)<br><sub>LLM de OpenAI; fuerte en razonamiento y tareas complejas
 [Google Docs](https://docs.google.com)<br><sub>buscar y reemplazar con expresiones regulares|[displaCy](https://explosion.ai/demos/displacy)<br><sub>visualización interactiva de análisis PLN||[Le Chat](https://chat.mistral.ai)<br><sub>LLM de Mistral; modelo europeo de referencia
-
-### Referencia
-
-- [Caso real: u6-VII-traslation-project](https://github.com/mmasias/u6-VII-traslation-project) - flujo lingüístico-tecnológico aplicado
-- [Expresiones regulares en producción: arqueología de un programa de 1998](https://github.com/mmasias/DirectorioPiuranos/blob/main/ANALISIS.md) - análisis técnico-lingüístico de un CGI Perl que hacía lingüística computacional sin saberlo
