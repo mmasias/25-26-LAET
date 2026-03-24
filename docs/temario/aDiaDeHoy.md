@@ -7,4 +7,3 @@
 - Introducción y contextualización.
 - Relevancia de la traducción en los procesos corporativos.
 - Mapa de los  de los módulos por ver a partir de los niveles de abstracción carácter & patrón / palabra & oración / discurso & significado.
-

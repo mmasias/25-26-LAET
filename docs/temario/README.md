@@ -23,7 +23,7 @@
 
 ## Temario++
 
-- [x] Artículos varios recopilados en la [carpeta de documentos](/documentos/README.md).
+- [x] Artículos varios recopilados en la [carpeta de documentos](/docs/articulos/README.md).
 
 ---
 

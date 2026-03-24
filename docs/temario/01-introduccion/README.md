@@ -65,7 +65,7 @@ Estas herramientas habilitan tareas que forman parte del trabajo profesional rea
 - Generar contenido lingüístico: ejercicios, resúmenes, adaptaciones de registro
 - Evaluar críticamente herramientas y sus limitaciones, en lugar de usarlas como cajas negras
 
-- [Ejemplos](articulos/ejemplos.md)
+- [Ejemplos](/docs/temario/01-introduccion/articulos/ejemplos.md)
 
 ## ¿Cómo?
 
@@ -89,7 +89,7 @@ Cada capa construye sobre la anterior. La tabla describe niveles; el siguiente c
 
 > Una editorial necesita crear ejercicios de vocabulario a partir de un corpus de artículos periodísticos.
 
-Un [flujo de trabajo profesional](articulos/flujo-editorial.md) podría ser:
+Un [flujo de trabajo profesional](/docs/temario/01-introduccion/articulos/flujo-editorial.md) podría ser:
 
 <table>
 <tr><td valign=top>
@@ -100,13 +100,13 @@ Un [flujo de trabajo profesional](articulos/flujo-editorial.md) podría ser:
 1. **Validación humana** → corregir, refinar y publicar
 </td><td>
 
-![](/images/modelosUML/day-in-the-life-teorico.svg)
+![](/docs/images/modelosUML/day-in-the-life-teorico.svg)
 </td></tr>
 </table>
 
 Cada paso produce un output que alimenta el siguiente. El profesional de la lengua diseña y supervisa el proceso; las herramientas lo ejecutan.
 
-> Este flujo es la versión ordenada. Pero, [*is this the real life?*](articulos/day-in-the-life-real.md)
+> Este flujo es la versión ordenada. Pero, [*is this the real life?*](/docs/temario/01-introduccion/articulos/day-in-the-life-real.md)
 
 ## ¿Y ahora qué?
 
