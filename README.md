@@ -13,14 +13,14 @@ Repo de materiales y proyectos de la asignatura **Lingüística aplicada a la ed
 
 ## Herramientas et al
 
-- [GIT](https://git-scm.com/) & [GitHub](https://github.com/)
-- [Google Docs](https://drive.google.com/drive/u/0/my-drive)
-- [Plantillas](/documentos/plantillas.md)
+|Expresiones regulares|PLN|Traducción|IA generativa|
+|:-:|:-:|:-:|:-:|
+[regexr.com](https://regexr.com/)<br><sub>entorno visual e interactivo para construir y probar patrones|[Google Colab](https://colab.research.google.com)<br><sub>entorno Python en el navegador, sin instalación|[DeepL](https://www.deepl.com)<br><sub>traducción automática neural, referencia en el sector profesional|[Claude](https://claude.ai)<br><sub>LLM de Anthropic; fuerte en análisis de documentos y contexto largo
+[Google Sheets](https://sheets.google.com)<br><sub>hojas de cálculo con funciones regex nativas|[spaCy](https://spacy.io)<br><sub>biblioteca de PLN; se ejecuta en Colab|[Google Translate](https://translate.google.com)<br><sub>traducción automática de referencia generalista|[ChatGPT](https://chatgpt.com)<br><sub>LLM de OpenAI; fuerte en razonamiento y tareas complejas
+[Google Docs](https://docs.google.com)<br><sub>buscar y reemplazar con expresiones regulares|[displaCy](https://explosion.ai/demos/displacy)<br><sub>visualización interactiva de análisis PLN||[Le Chat](https://chat.mistral.ai)<br><sub>LLM de Mistral; modelo europeo de referencia
 
 ## Bibliografía & enlaces interesantes
 
 NOTA: *Algunos enlaces podrían requerir **credenciales de acceso al campus** o a otros espacios colaborativos.*
 
 - [Hoja de asistencia et-al](https://docs.google.com/spreadsheets/d/10tjnVVP7Yht6ICxarJK-x0CdIwW48OvG-aJYOWjoo-4/edit?usp=sharing)
-- Libro de la asignatura
-- Este repo, versión de ediciones pasadas
