@@ -4,12 +4,12 @@ Repo de materiales y proyectos de la asignatura **Lingüística aplicada a la ed
 
 ## Curso [25][26]
 
-- [Temario](temario/README.md)
-  - [A día de hoy, deberíamos saber...](temario/aDiaDeHoy.md)
-  - [Casos de uso](temario/casosDeUso/README.md)
-  - [Ejercicios](temario/ejercicios/README.md)
+- [Temario](docs/temario/README.md)
+  - [A día de hoy, deberíamos saber...](docs/temario/aDiaDeHoy.md)
+  - [Casos de uso](docs/temario/casosDeUso/README.md)
+  - [Ejercicios](docs/temario/ejercicios/README.md)
 - Evaluaciones
-  - Evaluación continua: [Retos!](evaluaciones/retos/README.md)
+  - Evaluación continua: [Retos!](docs/evaluaciones/retos/README.md)
 
 ## Herramientas et al
 

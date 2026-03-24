@@ -7,7 +7,7 @@ El flujo teórico es limpio, ordenado y reconfortante. El flujo real tiene otra 
 
 <div align=center>
 
-![Flujo real de trabajo lingüístico-tecnológico](../../../images/modelosUML/day-in-the-life-real.svg)
+![Flujo real de trabajo lingüístico-tecnológico](../../../docs/images/modelosUML/day-in-the-life-real.svg)
 
 </div>
 
