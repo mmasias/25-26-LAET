@@ -51,7 +51,15 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 
 ### Literales
 
-Caracteres que se buscan tal cual. `corpus` encuentra exactamente esa cadena. La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
+Caracteres que se buscan tal cual. Tres tipos:
+
+| Tipo | Ejemplo | Busca |
+|---|---|---|
+| Alfanumérico | `corpus` | exactamente esa cadena |
+| Espacio escapado | `\t` `\n` `\r` | tabulación, salto de línea, retorno de carro |
+| Metacarácter escapado | `\.` `\*` `\+` | el carácter literal (sin su significado especial) |
+
+La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
 
 ### Metacaracteres
 
@@ -141,6 +149,8 @@ Resultado: `La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en con
 **Normalizar** — estandarizar formatos:
 
 Buscar `(\d{2})/(\d{2})/(\d{4})` → reemplazar por `$3-$2-$1` transforma `12/03/2024` en `2024-03-12`. Los grupos capturados permiten reordenar partes del texto sin reescribirlas.
+
+Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info](https://www.regular-expressions.info/)
 
 ### Trayectoria: de la teoría a la herramienta
 
