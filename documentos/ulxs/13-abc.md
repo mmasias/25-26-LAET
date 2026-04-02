@@ -32,19 +32,21 @@ Archivo y transmisión de música tradicional, análisis computacional de melod�
 
 ```abc
 X:1
-T:Exemplo de notación ABC
-C:Anónimo (tradición oral)
+T:Romance del prisionero
+C:Anónimo (tradición oral castellana, s. XV)
+N:Ejemplo de transmisión oral codificada: el mismo texto
+N:que circulaba de voz en voz, ahora en texto plano.
 M:4/4
 L:1/8
-Q:1/4=120
-K:Amin
-% Melodía pentatónica menor
-|: A2 c2 d2 e2 | d2 c2 A4 |
-   e2 d2 c2 A2 | B4 z4   |
-   A2 c2 d2 e2 | d2 c2 e2 d2 |
-   c2 A2 B2 G2 | A8 :|
+Q:1/4=96
+K:Dmin
+% Estrofa — patrón octosilábico
+|: D2 F2 A2 F2 | E2 D2 D4 |
+   F2 G2 A2 G2 | F6 z2   |
+   A2 A2 G2 F2 | E2 F2 G4 |
+   F2 E2 D2 C2 | D8      :|
 
-% Variante rítmica del mismo tema
-|: A2AB c2cd | e2ec d2dB |
-   A4 A2 z2  | E4 z4    :|
+% Estribillo — variante melódica
+|: A2 Bc d2 cA | G2 F2 E4 |
+   F2 GA B2 AG | F8       :|
 ```

@@ -6,7 +6,7 @@
 
 ## ¿Por qué?
 
-Los formatos gráficos dominantes en la web (GIF, JPEG, PNG) son mapas de bits: se pixelan al ampliar, no son accesibles para lectores de pantalla y no se pueden modificar con un editor de texto. El W3C necesitaba un formato vectorial que fuese ciudadano de primera clase de la web: part del DOM, estilizable con CSS, manipulable con JavaScript y legible por humanos.
+Los formatos gráficos dominantes en la web (GIF, JPEG, PNG) son mapas de bits: se pixelan al ampliar, no son accesibles para lectores de pantalla y no se pueden modificar con un editor de texto. El W3C necesitaba un formato vectorial que fuese ciudadano de primera clase de la web: parte del DOM, estilizable con CSS, manipulable con JavaScript y legible por humanos.
 
 ## ¿Qué?
 
