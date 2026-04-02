@@ -34,19 +34,30 @@ Archivo y transmisión de música tradicional, análisis computacional de melod�
 X:1
 T:Romance del prisionero
 C:Anónimo (tradición oral castellana, s. XV)
-N:Ejemplo de transmisión oral codificada: el mismo texto
-N:que circulaba de voz en voz, ahora en texto plano.
 M:4/4
 L:1/8
 Q:1/4=96
 K:Dmin
-% Estrofa — patrón octosilábico
 |: D2 F2 A2 F2 | E2 D2 D4 |
    F2 G2 A2 G2 | F6 z2   |
    A2 A2 G2 F2 | E2 F2 G4 |
    F2 E2 D2 C2 | D8      :|
+```
 
-% Estribillo — variante melódica
-|: A2 Bc d2 cA | G2 F2 E4 |
-   F2 GA B2 AG | F8       :|
+```abc
+X:2
+T:Highway to Hell
+C:AC/DC — Young, Young & Johnson (1979)
+M:4/4
+L:1/8
+Q:1/4=116
+K:Amaj
+% Intro — riff de acordes
+|: "A5"[A,EA]4 z2 [A,EA]2 | "D/F#"[^FAd]4 "G5"[GBd]4 :|
+% Estrofa — "Livin' easy, livin' free"
+"D/F#"e4 z2 e2 | "G5"d4 B4 | "D/F#"e3 d B3 A | "A5"A8 |
+"D/F#"e4 z2 e2 | "G5"d4 d4 | "D/F#"B3 A "G5"G4 | "A5"A8 |
+% Estribillo — "I'm on the highway to hell"
+"A"e2 e2 e2 d2 | "D/A"d4 A4 | "G5"B4 "D/F#"^f4 | "A"e8 |
+"A"e2 e2 e2 d2 | "D/A"d4 A4 | "G5"B2 A2 "D/F#"^f4 | "A"A8 |
 ```
