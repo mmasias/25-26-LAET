@@ -57,7 +57,7 @@ Caracteres que se buscan tal cual. Tres tipos:
 |---|---|---|
 | Alfanumérico | `corpus` | exactamente esa cadena |
 | Espacio escapado | `\t` `\n` `\r` | tabulación, salto de línea, retorno de carro |
-| Metacarácter escapado | `\.` `\*` `\+` | el carácter literal (sin su significado especial) |
+| Metacarácter escapado | `\.` `\*` `\(` `\[` … | cualquier metacarácter precedido de `\` pierde su significado especial y se busca como literal |
 
 La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
 
