@@ -1,7 +1,7 @@
-# Ejercicios diversos
+# Ejercicios
 
-> #2Think...
+Práctica autónoma, sin entregable obligatorio.
 
-|Ejercicio|Concepto|Concepto|Concepto|Concepto|Concepto|Concepto|Concepto
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|[Nombre del ejercicio](01-PaginaDelEjercicio.md)|☑️|☑️|☑️|🔲|🔲|🔲|
+| Ejercicio | Sesión |
+|-----------|--------|
+| [Regex básico](01-regex-basico.md) | 2 |
