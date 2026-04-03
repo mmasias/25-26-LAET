@@ -226,14 +226,8 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 | 1970s-80s | Se estandarizan en Unix: `grep`, `sed`, `awk` |
 | 1987 | Perl las populariza con sintaxis más expresiva |
 | 1990s-2000s | Se integran en editores de texto, IDEs y bases de datos |
-| Hoy | Disponibles en cualquier hoja de cálculo y en el navegador |
+| Hoy | Disponibles en múltiples herramientas ofimáticas, de desarrollo y en el navegador |
 
 </div>
 
 Una notación diseñada para describir lenguajes formales recorrió setenta años y tres disciplinas -matemáticas, informática, lingüística computacional- antes de llegar al navegador.
-
----
-
-- [Regex básico](basico.md) - Práctica visual con regexr.com
-- [Regex aplicado](aplicado.md) - Corpus reales con hojas de cálculo
-- [Regex avanzado](avanzado.md) - Automatización y límites

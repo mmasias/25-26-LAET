@@ -3,8 +3,8 @@
 - [x] [Contexto y fundamentos](01-introduccion/README.md)
   - [x] El profesional de la lengua en la era de la informática + Estado del arte
   - [x] Panorama completo: de regex a IA generativa.
-- [ ] Expresiones regulares
-  - [ ] Regex básico, *sintaxis fundamental, casos de uso en lingüística*.
+- [x] [Expresiones regulares](02-regex/README.md)
+  - [x] [Regex básico](02-regex/basico.md), *sintaxis fundamental, casos de uso en lingüística*.
   - [ ] Regex aplicado, *práctica con corpus reales, herramientas*.
   - [ ] Regex avanzado + casos límite, *cuándo usar/no usar, alternativas*.
 - [ ] PLN
