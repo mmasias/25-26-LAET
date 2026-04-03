@@ -18,6 +18,8 @@ Archivos de configuración de proyectos: `Cargo.toml` en Rust, `pyproject.toml` 
 
 ## ¿Cómo?
 
+> [LivePreview](https://www.toml-lint.com/)
+
 ### Sintaxis
 
 | Construcción | Significado |

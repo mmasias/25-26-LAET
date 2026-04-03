@@ -18,3 +18,6 @@ Colección de fichas de referencia rápida sobre lenguajes formales, de marcado 
 | 12 | [Gherkin](12-gherkin.md) | DSL para especificación ejecutable | 2008 |
 | 13 | [ABC Notation](13-abc.md) | Lenguaje de descripción musical | 1991 |
 | 14 | [SVG](14-svg.md) | Lenguaje de marcado vectorial | 1999 |
+| 15 | [CSV](15-csv.md) | Formato de datos tabulares | 1972 |
+| 16 | [XPath](16-xpath.md) | Lenguaje de consulta sobre XML | 1999 |
+| 17 | [jq](17-jq.md) | Procesador de JSON | 2012 |

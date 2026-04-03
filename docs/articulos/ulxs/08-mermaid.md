@@ -18,6 +18,8 @@ Diagramas en documentación viva: el diagrama viaja con el documento, se version
 
 ## ¿Cómo?
 
+> [LivePreview](https://mermaid.live/)
+
 ### Sintaxis
 
 | Construcción | Significado |

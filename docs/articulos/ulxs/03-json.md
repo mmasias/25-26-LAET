@@ -18,6 +18,8 @@ APIs REST, archivos de configuración, almacenamiento de documentos. Ha desplaza
 
 ## ¿Cómo?
 
+> [LivePreview](https://jsoneditoronline.org/)
+
 ### Sintaxis
 
 | Construcción | Significado |

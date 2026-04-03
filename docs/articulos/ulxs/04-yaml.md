@@ -18,6 +18,8 @@ Archivos de configuración (Docker Compose, GitHub Actions, Ansible, Kubernetes)
 
 ## ¿Cómo?
 
+> [LivePreview](https://yaml-online-parser.appspot.com/)
+
 ### Sintaxis
 
 | Construcción | Significado |

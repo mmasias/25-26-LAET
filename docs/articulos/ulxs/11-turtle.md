@@ -18,6 +18,8 @@ Ontologías lingüísticas (WordNet, FrameNet como Linked Data), bases de conoci
 
 ## ¿Cómo?
 
+> [LivePreview](https://zazuko.com/triplestore/)
+
 ### Sintaxis
 
 | Construcción | Significado |

@@ -18,6 +18,8 @@ Iconografía, infografía, diagramas lingüísticos publicables (árboles de con
 
 ## ¿Cómo?
 
+> [LivePreview](https://www.svgviewer.dev/)
+
 ### Sintaxis
 
 | Construcción | Significado |

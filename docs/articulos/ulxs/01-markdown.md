@@ -18,6 +18,8 @@ Documentación, blogs, wikis, README. Base de la mayoría de plataformas de escr
 
 ## ¿Cómo?
 
+> [LivePreview](https://markdownlivepreview.com/)
+
 ### Sintaxis
 
 | Construcción | Significado |

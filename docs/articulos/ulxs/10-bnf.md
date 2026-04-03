@@ -18,6 +18,8 @@ Especificación formal de lenguajes de programación, protocolos y formatos. Doc
 
 ## ¿Cómo?
 
+> [LivePreview — Railroad Diagram Generator](https://bottlecaps.de/rr/ui)
+
 ### Sintaxis
 
 | Construcción | Significado |
