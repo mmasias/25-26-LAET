@@ -1,0 +1,57 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Clases de\ncaracteres" as CCLASS {
+  <font:sans-serif><sub>Conjuntos válidos para una posición</sub></font>
+}
+
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+
+class "Predefinidas" as PREDEF {
+  \d  \w  \s
+}
+
+class "Negadas" as NEGAD {
+  \D  \W  \S
+}
+
+class "Personalizadas" as CUSTOM {
+  [aeiou]
+  [0-9]
+  [^abc]
+}
+
+class "Comodín" as DOT {
+  .
+  <font:sans-serif><sub>(cualquier carácter excepto \\n)</sub></font>
+}
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- CCLASS
+
+CCLASS <|-- DOT
+CCLASS <|--- PREDEF
+CCLASS <|--- NEGAD
+CCLASS <|-- CUSTOM
+
+CUSTOM -[hidden]r- PREDEF
+DOT -[hidden]d- NEGAD
+PREDEF -[hidden]r- NEGAD
+
+@enduml

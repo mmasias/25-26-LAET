@@ -1,0 +1,55 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Cuantificadores" as QUANT {
+  <font:sans-serif><sub>Controlan repeticiones</sub></font>
+  <font:sans-serif><sub>del elemento precedente</sub></font>
+}
+
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+
+class "Voraces\n(greedy)" as GREEDY {
+  <font:monospaced>* (0+)  + (1+)  ? (0 o 1)  {n,m}</font>
+  ---
+  <font:sans-serif><sub>Máxima coincidencia posible</sub></font>
+}
+
+class "Perezosos\n(lazy)" as LAZY {
+  <font:monospaced>*?  +?  ??  {n,m}?</font>
+  ---
+  <font:sans-serif><sub>Mínima coincidencia posible</sub></font>
+}
+
+class "Posesivos" as POSS {
+  <font:monospaced>*+  ++  ?+  {n,m}+</font> 
+  ---
+  <font:sans-serif><sub>sin retroceso (backtracking)</sub></font>
+}
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- QUANT
+
+QUANT <|-- GREEDY
+QUANT <|-- LAZY
+QUANT <|-- POSS
+
+GREEDY -[hidden]r- LAZY
+LAZY -[hidden]r- POSS
+
+@enduml

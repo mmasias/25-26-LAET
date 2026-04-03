@@ -1,0 +1,61 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Flags" as FLAGS {
+  <font:sans-serif><sub>Modificadores globales</sub></font>
+  <font:sans-serif><sub>del comportamiento del patrón</sub></font>
+}
+
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+
+class "Insensible a\nmayúsculas" as FLAG_I {
+  i
+}
+
+class "Global" as FLAG_G {
+  g
+  ---
+  <font:sans-serif><sub>todas las coincidencias</sub></font>
+}
+
+class "Multilínea" as FLAG_M {
+  m
+  ---
+  <font:sans-serif><sub>^ y $ por línea</sub></font>
+}
+
+class "Dotall" as FLAG_S {
+  s
+  ---
+  <font:sans-serif><sub>. incluye \\n</sub></font>
+}
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- FLAGS
+
+FLAGS <|-- FLAG_I
+FLAGS <|-- FLAG_G
+FLAGS <|-- FLAG_M
+FLAGS <|-- FLAG_S
+
+FLAG_I -[hidden]r- FLAG_G
+FLAG_G -[hidden]r- FLAG_M
+FLAG_M -[hidden]r- FLAG_S
+
+@enduml

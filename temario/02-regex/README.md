@@ -45,7 +45,7 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 
 |![](/images/modelosUML/regex-taxonomy-simple.svg)
 |-
-| [Ver taxonomía completa](/images/modelosUML/regex-taxonomy.svg) |
+| [Ver taxonomía completa](mapa.md) |
 
 </div>
 
@@ -53,17 +53,23 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 
 Caracteres que se buscan tal cual. Tres tipos:
 
+<div align=center>
+
 | Tipo | Ejemplo | Busca |
 |---|---|---|
 | Alfanumérico | `corpus` | exactamente esa cadena |
 | Espacio escapado | `\t` `\n` `\r` | tabulación, salto de línea, retorno de carro |
 | Metacarácter escapado | `\.` `\*` `\(` `\[` … | cualquier metacarácter precedido de `\` pierde su significado especial y se busca como literal |
 
+</div>
+
 La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
 
 ### Metacaracteres
 
 Símbolos con significado especial que representan categorías de caracteres:
+
+<div align=center>
 
 | Metacarácter | Representa |
 |---|---|
@@ -73,9 +79,13 @@ Símbolos con significado especial que representan categorías de caracteres:
 | `\s` | cualquier espacio en blanco (espacio, tabulación, salto de línea) |
 | `\D` `\W` `\S` | la negación de los anteriores |
 
+</div>
+
 ### Clases de caracteres
 
 Conjuntos definidos entre corchetes. Solo se busca uno de los caracteres listados:
+
+<div align=center>
 
 | Construcción | Representa |
 |---|---|
@@ -84,9 +94,13 @@ Conjuntos definidos entre corchetes. Solo se busca uno de los caracteres listado
 | `[a-z]` | cualquier letra minúscula |
 | `[a-záéíóúüñ]` | cualquier letra minúscula del español |
 
+</div>
+
 ### Cuantificadores
 
 Indican cuántas veces se repite el elemento anterior:
+
+<div align=center>
 
 | Cuantificador | Significado |
 |---|---|
@@ -97,9 +111,13 @@ Indican cuántas veces se repite el elemento anterior:
 | `{2,4}` | entre 2 y 4 veces |
 | `{2,}` | 2 o más veces |
 
+</div>
+
 ### Anclas
 
 Posicionan la búsqueda sin consumir caracteres:
+
+<div align=center>
 
 | Ancla | Posición |
 |---|---|
@@ -107,15 +125,21 @@ Posicionan la búsqueda sin consumir caracteres:
 | `$` | fin de línea |
 | `\b` | límite de palabra (frontera entre `\w` y `\W`) |
 
+</div>
+
 ### Grupos
 
 Los paréntesis agrupan y capturan:
+
+<div align=center>
 
 | Construcción | Uso |
 |---|---|
 | `(patrón)` | grupo capturador: extrae la coincidencia para reutilizarla |
 | `(?:patrón)` | grupo no capturador: agrupa sin extraer |
 | `(a\|b)` | alternativa: `a` o `b` |
+
+</div>
 
 ### Ejemplos
 
@@ -129,15 +153,21 @@ Ver más en https://corpus.rae.es — #neologismos #lenguajeDigital
 
 **Limpiar** — eliminar ruido no textual:
 
+<div align=center>
+
 | Qué eliminar | Regex |
 |---|---|
 | URLs | `https?://[^\s]+` |
 | Menciones | `@\w+` |
 | Hashtags | `#\w+` |
 
+</div>
+
 Resultado: `La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en contextos laborales. publicó: "el término 'postureo' ya aparece en corpus del CREA."`
 
 **Extraer patrones** — encontrar estructuras específicas:
+
+<div align=center>
 
 | Qué extraer | Regex | Encuentra |
 |---|---|---|
@@ -145,6 +175,8 @@ Resultado: `La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en con
 | Palabras entre comillas | `"([^"]+)"` | `ghosting`, `postureo` |
 | Palabras terminadas en `-ing` | `\b[a-zA-Z]+ing\b` | `ghosting` |
 | Verbos en infinitivo | `\b\w+(ar\|er\|ir)\b` | `publicar`, `aparecer` |
+
+</div>
 
 **Normalizar** — estandarizar formatos:
 
@@ -154,6 +186,8 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 
 ### Trayectoria: de la teoría a la herramienta
 
+<div align=center>
+
 | Año | Hito |
 |---|---|
 | 1956 | Kleene define las expresiones regulares en teoría de autómatas |
@@ -162,6 +196,8 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 | 1987 | Perl las populariza con sintaxis más expresiva |
 | 1990s-2000s | Se integran en editores de texto, IDEs y bases de datos |
 | Hoy | Disponibles en cualquier hoja de cálculo y en el navegador |
+
+</div>
 
 Una notación diseñada para describir lenguajes formales recorrió setenta años y tres disciplinas —matemáticas, informática, lingüística computacional— antes de llegar al navegador.
 

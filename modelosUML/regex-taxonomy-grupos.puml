@@ -1,0 +1,52 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Grupos y\nalternancia" as GROUP {
+  <font:sans-serif><sub>Agrupan subpatrones</sub></font>
+  <font:sans-serif><sub>o seleccionan entre opciones</sub></font>
+}
+
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+
+class "Captura" as CAP {
+  (patrón)
+}
+
+class "No captura" as NOCAP {
+  (?:patrón)
+}
+
+class "Referencia\nretrospectiva" as REF {
+  \1  \2  \3
+}
+
+class "Alternancia" as ALT {
+  a|b
+  <font:sans-serif><sub>uno u otro</sub></font>
+}
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- GROUP
+
+GROUP <|-- CAP
+GROUP <|-- NOCAP
+GROUP <|--- ALT
+GROUP <|-- REF
+
+@enduml
