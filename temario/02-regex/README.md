@@ -21,7 +21,7 @@ Dos disciplinas, dos vocabularios, un único objeto matemático. No es una coinc
 Una expresión regular es una cadena de caracteres que describe un conjunto de cadenas posibles. Combina dos tipos de elementos:
 
 - **Literales:** caracteres que se buscan tal cual (`casa`, `@`, `.`)
-- **Metacaracteres:** símbolos con significado especial — cualquier carácter, repetición, alternativa, posición
+- **Metacaracteres:** símbolos con significado especial - cualquier carácter, repetición, alternativa, posición
 
 Su potencia está en la composición: con pocos elementos se describen conjuntos arbitrariamente complejos. No se busca una cadena concreta, sino una clase entera de cadenas posibles.
 
@@ -143,29 +143,50 @@ Los paréntesis agrupan y capturan:
 
 ### Ejemplos
 
-Texto de trabajo:
+<div align=center>
+
+| Patrón | Coincide con | No coincide con |
+|---|---|---|
+| `Ibuprofeno` | `Ibuprofeno` | `ibuprofeno`, `Ibuprofenos` |
+| `I.uprofeno` | `Ibuprofeno` | `uprofeno`, `ibuprofeno` |
+| `Fern\w+` | `Fernández`, `Fernanda`, `Fernando` | `Fern`, `fern` |
+| `\d\d` | `25`, `43` | `2f`, `ab` |
+| `[aeiou]` | `a`, `e`, `i`, `o`, `u` | `b`, `c`, `F` |
+| `^Ibuprofeno` | `Ibuprofeno Fernández` | `Hola Ibuprofeno` |
+
+</div>
+
+En la práctica, una forma de construir las expresiones regulares es de adentro hacia afuera: primero se identifica el patrón mínimo que describe lo que se busca, luego se añaden repeticiones o restricciones.
+
+#### Un proceso de trabajo
+
+Supongamos el siguiente texto
 
 ```text
 La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en contextos laborales.
 @linguista publicó: "el término 'postureo' ya aparece en corpus del CREA."
-Ver más en https://corpus.rae.es — #neologismos #lenguajeDigital
+Ver más en https://corpus.rae.es - #neologismos #lenguajeDigital
 ```
 
-**Limpiar** — eliminar ruido no textual:
+**Limpiar** - eliminar ruido no textual:
 
 <div align=center>
 
-| Qué eliminar | Regex |
-|---|---|
-| URLs | `https?://[^\s]+` |
-| Menciones | `@\w+` |
-| Hashtags | `#\w+` |
+| Qué eliminar | Regex | Encuentra |
+|---|---|---|
+| URLs | `https?://[^\s]+` | https://corpus.rae.es
+| Menciones | `@\w+` | @linguista
+| Hashtags | `#\w+` | #neologismos #lenguajeDigital
 
 </div>
 
-Resultado: `La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en contextos laborales. publicó: "el término 'postureo' ya aparece en corpus del CREA."`
+Si lo aplicamos eliminando lo que encuentra tendremos:
 
-**Extraer patrones** — encontrar estructuras específicas:
+```
+La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en contextos laborales. publicó: "el término 'postureo' ya aparece en corpus del CREA."
+```
+
+**Extraer patrones** - encontrar estructuras específicas:
 
 <div align=center>
 
@@ -178,9 +199,17 @@ Resultado: `La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en con
 
 </div>
 
-**Normalizar** — estandarizar formatos:
+**Normalizar** - estandarizar formatos:
 
-Buscar `(\d{2})/(\d{2})/(\d{4})` → reemplazar por `$3-$2-$1` transforma `12/03/2024` en `2024-03-12`. Los grupos capturados permiten reordenar partes del texto sin reescribirlas.
+<div align=center>
+
+| Buscar | Encuentra | Reemplazar | Devuelve |
+|---|---|---|---|
+| `(\d{2})/(\d{2})/(\d{4})` | `12/03/2024` | `$3-$2-$1` | `2024-03-12` |
+
+</div>
+
+Los grupos capturados permiten reordenar partes del texto sin reescribirlas.
 
 Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info](https://www.regular-expressions.info/)
 
@@ -199,10 +228,10 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 
 </div>
 
-Una notación diseñada para describir lenguajes formales recorrió setenta años y tres disciplinas —matemáticas, informática, lingüística computacional— antes de llegar al navegador.
+Una notación diseñada para describir lenguajes formales recorrió setenta años y tres disciplinas -matemáticas, informática, lingüística computacional- antes de llegar al navegador.
 
 ---
 
-- [Regex básico](basico.md) — Práctica visual con regexr.com
-- [Regex aplicado](aplicado.md) — Corpus reales con hojas de cálculo
-- [Regex avanzado](avanzado.md) — Automatización y límites
+- [Regex básico](basico.md) - Práctica visual con regexr.com
+- [Regex aplicado](aplicado.md) - Corpus reales con hojas de cálculo
+- [Regex avanzado](avanzado.md) - Automatización y límites
