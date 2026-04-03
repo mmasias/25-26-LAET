@@ -21,3 +21,5 @@ Colección de fichas de referencia rápida sobre lenguajes formales, de marcado 
 | 15 | [CSV](15-csv.md) | Formato de datos tabulares | 1972 |
 | 16 | [XPath](16-xpath.md) | Lenguaje de consulta sobre XML | 1999 |
 | 17 | [jq](17-jq.md) | Procesador de JSON | 2012 |
+| 18 | [XML](18-xml.md) | Lenguaje de marcado extensible | 1998 |
+| 19 | [HTML](19-html.md) | Lenguaje de marcado de hipertexto | 1991 |
