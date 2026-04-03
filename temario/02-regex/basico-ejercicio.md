@@ -16,7 +16,7 @@ Ghosting no es solo de citas. También en profesional cuando alguien desaparece.
 ¿Alguien más usa "flexear"? Antes era solo fitness, ahora está en todo... #Neologismos
 ```
 
-Abre [regexr.com](https://regexr.com/), pega el corpus y experimenta con los patrones siguientes. No hay una única solución correcta: el objetivo es entender qué captura cada regex y por qué.
+Herramienta de trabajo: [regexr.com](https://regexr.com/). No hay una única solución correcta para cada ejercicio: lo relevante es documentar qué captura el patrón y por qué.
 
 ---
 
@@ -24,18 +24,16 @@ Abre [regexr.com](https://regexr.com/), pega el corpus y experimenta con los pat
 
 **1. Limpiar ruido**
 
-Elimina del corpus los elementos que no aportan información lingüística: URLs, menciones y hashtags.
-
-¿Qué queda después de limpiar? ¿Hay algo que hayas eliminado sin querer?
+El corpus contiene elementos que no aportan información lingüística: URLs, menciones y hashtags. ¿Qué queda una vez eliminados? ¿Se ha perdido algo de valor?
 
 **2. Extraer candidatos a términos**
 
-Encuentra todas las palabras entre comillas. ¿Son todas neologismos? ¿Hay alguna que no lo sea?
+Las palabras entre comillas son candidatos a términos o neologismos. ¿Lo son todas? ¿Hay excepciones?
 
 **3. Palabras terminadas en `-ing`**
 
-Encuentra todas las palabras terminadas en `-ing`. ¿El patrón captura solo anglicismos? ¿Qué otros resultados aparecen?
+Un patrón para palabras terminadas en `-ing` debería capturar anglicismos. ¿Es eso lo que ocurre? ¿Qué otros resultados aparecen?
 
 **4. Libre**
 
-Diseña un patrón propio para extraer algo que te parezca interesante del corpus. Documenta qué buscabas, qué encontraste y qué ajustes tuviste que hacer.
+Diseñar un patrón para extraer algo de interés propio en el corpus. Documentar qué se buscaba, qué capturó el patrón y qué ajustes fueron necesarios.
