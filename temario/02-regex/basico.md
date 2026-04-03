@@ -26,70 +26,19 @@ Búsqueda de patrones en lugar de palabras exactas.
 
 ## ¿Cómo?
 
-<div align=center>
-
-|![](/images/modelosUML/regex-taxonomy.svg)|
-|-|
-
-</div>
-
-### Construcción
-
-Las expresiones regulares se construyen con dos tipos de elementos:
-
-**Literales:** caracteres que se buscan tal cual (`hola`, `@`, `#`, ` `, `.`)
-
-**Metacaracteres:** símbolos especiales con significado particular
-
-- `.` - cualquier carácter individual
-- `\d` - cualquier dígito (0-9)
-- `\w` - cualquier carácter de palabra (letra, número, guión bajo)
-- `\s` - cualquier espacio en blanco
-
-**Clases de caracteres:** conjuntos de caracteres
-
-- `[abc]` - cualquiera de a, b o c
-- `[^abc]` - cualquiera que NO sea a, b o c
-- `[a-z]` - cualquier letra minúscula
-- `[0-9]` - cualquier dígito
-
-**Cuantificadores:** indican cuántas veces se repite lo anterior
-
-- `*` - cero o más veces
-- `+` - una o más veces
-- `?` - cero o una vez
-- `{3}` - exactamente 3 veces
-- `{2,4}` - entre 2 y 4 veces
-
-**Anclajes:** posicionan la búsqueda
-
-- `^` - inicio de línea
-- `$` - fin de línea
-- `\b` - límite de palabra
-
-**Grupos de captura:** extraen partes del patrón
-
-- `()` - grupo capturado
-- `(?:)` - grupo no capturado
-
-### Ejemplo
-
-- `casa` - busca literalmente "casa"
-- `c.s.` - busca "casa", "cosa", "cesa", etc.
-- `c[ao]sa` - busca "casa" o "cosa"
-- `\d{3}` - busca exactamente 3 dígitos
-- `https?://` - busca "http://" o "https://"
-
-### Ejercicio
-
 **Herramienta:** [regexr.com](https://regexr.com/)
 
-Visual, feedback inmediato, sin instalación, explicación de cada parte al pasar el mouse.
+Texto de trabajo
 
-[Regex básico - Ejercicio](basico-ejercicio.md)
-
-## Y ahora, ¿qué?
-
-- [regexr.com](https://regexr.com/)
-- [RegexOne](https://regexone.com/) - Tutorial interactivo
-- [Regex101](https://regex101.com/) - Alternativa con más opciones
+```
+Ibuprofeno Fernández compró Ibuprofeno en la farmacia.
+ibuprofeno genérico, IBUPROFENO 600, Ibupr0feno (marca pirata).
+El médico recetó ibuprofeno; la farmacéutica dio Ibuprofeno.
+Paracetamol 500mg   -   lote 2024/03/12
+Aspirina  325mg - lote 2023/11/05
+omeprazol   20mg   -  lote  2024/01/30
+Contacto: ifernandez@farmacia.es  |  tel: 612 345 678
+Cita: 12/03/2024 a las 09:30h, revisión: 05/11/2023
+dr.García prescribió  3  unidades;   dra.López  prescribió 1
+El el paciente debe tomar la la dosis indicada cada cada día.
+```

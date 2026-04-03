@@ -1,16 +1,8 @@
-# Ejercicio Regex básico
+# Práctica autónoma — Regex básico
 
-## Objetivo
-
-Aplicar regex básico para limpiar un corpus de tweets/posts sobre lenguaje contemporáneo y extraer los primeros candidatos a términos.
+Material de práctica opcional para consolidar lo trabajado en clase.
 
 ## Corpus de trabajo
-
-50 tweets/posts sobre lenguaje digital (proporcionado en clase).
-
-## Parte 1: Limpieza de corpus
-
-El corpus contiene elementos que no aportan información lingüística:
 
 ```text
 🚀 ¡El término "influencer" está viralizando! #LenguajeDigital https://t.co/abc123
@@ -24,47 +16,26 @@ Ghosting no es solo de citas. También en profesional cuando alguien desaparece.
 ¿Alguien más usa "flexear"? Antes era solo fitness, ahora está en todo... #Neologismos
 ```
 
-**Tarea:** Usar regexr.com para limpiar el corpus aplicando:
+Abre [regexr.com](https://regexr.com/), pega el corpus y experimenta con los patrones siguientes. No hay una única solución correcta: el objetivo es entender qué captura cada regex y por qué.
 
-1. `https?://[^\s]+` → Eliminar URLs
-2. `@[\w]+` → Eliminar menciones
-3. `#[\w]+` → Eliminar hashtags
+---
 
-**Resultado esperado:**
-```text
-El término influencer está viralizando.
+## Ejercicios
 
-De acuerdo: el concepto de cancelar cambió en 2024.
+**1. Limpiar ruido**
 
-Thread sobre neologismos: woke pasó del inglés al español.
+Elimina del corpus los elementos que no aportan información lingüística: URLs, menciones y hashtags.
 
-Ghosting no es solo de citas. También en profesional cuando alguien desaparece.
+¿Qué queda después de limpiar? ¿Hay algo que hayas eliminado sin querer?
 
-¿Alguien más usa flexear? Antes era solo fitness, ahora está en todo...
-```
+**2. Extraer candidatos a términos**
 
-## Parte 2: Extracción de patrones básicos
+Encuentra todas las palabras entre comillas. ¿Son todas neologismos? ¿Hay alguna que no lo sea?
 
-**Tarea:** Encontrar en el corpus limpio:
+**3. Palabras terminadas en `-ing`**
 
-1. **Todas las fechas** en formato dd/mm/aaaa
-   - Regex: `\d{2}/\d{2}/\d{4}`
+Encuentra todas las palabras terminadas en `-ing`. ¿El patrón captura solo anglicismos? ¿Qué otros resultados aparecen?
 
-2. **Todas las palabras entre comillas**
-   - Regex: `"([^"]+)"`
+**4. Libre**
 
-3. **Todos los anglicismos terminados en -ing** (bonus)
-   - Regex: `\b[a-zA-Z]+ing\b`
-
-**Entrega:** Documento con:
-- Corpus original
-- Regexes utilizados (explicados brevemente)
-- Corpus limpio
-- Lista de elementos extraídos
-
-## Hacia la herramienta final
-
-Este ejercicio sienta las bases para:
-- Corpus limpio para análisis posteriores
-- Primeros candidatos a términos (palabras entre comillas, anglicismos)
-- Uso de regexr.com como entorno de experimentación
+Diseña un patrón propio para extraer algo que te parezca interesante del corpus. Documenta qué buscabas, qué encontraste y qué ajustes tuviste que hacer.
