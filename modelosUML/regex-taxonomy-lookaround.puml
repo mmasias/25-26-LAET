@@ -1,0 +1,67 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Lookaround" as LOOK {
+  <font:sans-serif><sub>Condición de contexto,</sub></font>
+  <font:sans-serif><sub>sin consumir caracteres</sub></font>
+}
+
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+
+abstract "Lookahead" as AHEAD {
+  <font:sans-serif><sub>Comprueba lo que sigue</sub></font>
+}
+
+abstract "Lookbehind" as BEHIND {
+  <font:sans-serif><sub>Comprueba lo que precede</sub></font>
+}
+
+class "Positivo" as AHEAD_POS {
+  X(?=Y)
+}
+
+class "Negativo" as AHEAD_NEG {
+  X(?!Y)
+}
+
+class "Positivo" as BEHIND_POS {
+  X(?<=Y)
+}
+
+class "Negativo" as BEHIND_NEG {
+  X(?<!Y)
+}
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- LOOK
+
+LOOK <|-- AHEAD
+LOOK <|-- BEHIND
+
+AHEAD <|-- AHEAD_POS
+AHEAD <|-- AHEAD_NEG
+
+BEHIND <|-- BEHIND_POS
+BEHIND <|-- BEHIND_NEG
+
+AHEAD -[hidden]r- BEHIND
+AHEAD_POS -[hidden]r- AHEAD_NEG
+BEHIND_POS -[hidden]r- BEHIND_NEG
+
+@enduml

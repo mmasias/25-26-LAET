@@ -1,0 +1,46 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Anclas" as ANCHOR {
+  <font:sans-serif><sub>Posición en el texto,</sub></font>
+  <font:sans-serif><sub>sin consumir caracteres</sub></font>
+}
+
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+
+class "Inicio / Fin" as POS {
+  ^ (inicio de línea)
+  $ (fin de línea)
+  \A  \Z
+}
+
+class "Límite de\npalabra" as BOUND {
+  \b (límite)
+  \B (no límite)
+}
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- ANCHOR
+
+ANCHOR <|-- POS
+ANCHOR <|-- BOUND
+
+POS -[hidden]r- BOUND
+
+@enduml

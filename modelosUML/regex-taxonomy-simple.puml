@@ -1,0 +1,34 @@
+@startuml
+
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE
+abstract "Literales" as LIT
+abstract "Metacaracteres" as META
+abstract "Clases de\ncaracteres" as CCLASS
+abstract "Cuantificadores" as QUANT
+abstract "Anclas" as ANCHOR
+abstract "Grupos y\nalternancia" as GROUP
+abstract "Lookaround" as LOOK
+abstract "Flags" as FLAGS
+
+RE <|-- LIT
+RE <|-- META
+
+LIT -[hidden]r- META
+
+META <|-- CCLASS
+META <|-- QUANT
+META <|-- ANCHOR
+META <|-- GROUP
+META <|--- FLAGS
+META <|--- LOOK
+
+CCLASS -[hidden]r- QUANT
+QUANT -[hidden]r- LOOK
+LOOK -[hidden]r- FLAGS
+
+@enduml

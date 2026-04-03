@@ -1,0 +1,41 @@
+@startuml
+
+'skinparam linetype polyline
+'left to right direction
+'hide circle
+hide empty member
+skinparam classAttributeFontName monospaced
+skinparam classFontName sans-serif
+
+abstract "Expresión\nRegular" as RE {
+  <font:sans-serif><sub>Patrón de búsqueda compuesto</sub></font>
+  <font:sans-serif><sub>por literales y metacaracteres</sub></font>
+}
+
+abstract "Literales" as LIT {
+  <font:sans-serif><sub>Caracteres que se representan</sub></font>
+  <font:sans-serif><sub>a sí mismos en el patrón</sub></font>
+}
+
+abstract "Metacaracteres" as MET
+
+class "Alfanuméricos" as ALFA {
+  hola123
+}
+
+class "Metacaracteres\nescapados" as ESC_META {
+  \\. \\* \\+ \\? \\( \\)
+}
+
+class "Espacios\nescapados" as ESC_SP {
+  \\%chr(8203)%chr(116)  \\n  \\r
+}
+
+RE <|-- LIT
+RE <|-- MET
+
+LIT <|-- ALFA
+LIT <|---- ESC_META
+LIT <|---- ESC_SP
+
+@enduml
