@@ -183,7 +183,9 @@ Ver más en https://corpus.rae.es - #neologismos #lenguajeDigital
 Si lo aplicamos eliminando lo que encuentra tendremos:
 
 ```
-La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en contextos laborales. publicó: "el término 'postureo' ya aparece en corpus del CREA."
+La conferencia del 12/03/2024 abordó el fenómeno "ghosting" en contextos laborales.
+ publicó: "el término 'postureo' ya aparece en corpus del CREA."
+Ver más en -
 ```
 
 **Extraer patrones** - encontrar estructuras específicas:
