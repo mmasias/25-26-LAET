@@ -33,23 +33,27 @@ Especificación formal de lenguajes de programación, protocolos y formatos. Doc
 ### Ejemplo
 
 ```bnf
-/* Gramática BNF para oraciones simples en español */
+/* Gramática para oraciones simples en español */
 
-<oracion>  ::= <sn> <sv>
-<sn>       ::= <det> <n> | <det> <n> <sadj>
-<sv>       ::= <v> | <v> <sn> | <v> <sadj>
-<sadj>     ::= <adj> | <adv> <adj>
+oracion ::= sn sv
+sn      ::= det n sadj?
+sv      ::= v ( sn | sadj )?
 
-<det>      ::= "el" | "la" | "los" | "las" | "un" | "una"
-<n>        ::= "gato" | "perro" | "lingüista" | "corpus"
-<v>        ::= "duerme" | "analiza" | "construye"
-<adj>      ::= "rápido" | "complejo" | "preciso"
-<adv>      ::= "muy" | "bastante" | "poco"
+sadj    ::= adv? adj
 
-/* EBNF equivalente */
-oración = sn , sv ;
-sn      = det , n , [ sadj ] ;
-sv      = v , [ sn | sadj ] ;
+det     ::= "el" | "la" | "los" | "las" | "un" | "una"
+n       ::= "gato" | "perro" | "lingüista" | "corpus"
+v       ::= "duerme" | "analiza" | "construye"
+adj     ::= "rápido" | "complejo" | "preciso"
+adv     ::= "muy" | "bastante" | "poco"
+```
+
+```bnf
+expression ::= term ( ( '+' | '-' ) term )*
+term       ::= factor ( ( '*' | '/' ) factor )*
+factor     ::= number | '(' expression ')'
+number     ::= digit+
+digit      ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 ```
 
 ---
