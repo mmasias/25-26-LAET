@@ -50,3 +50,7 @@ Corpus lingüísticos en formato TEI (Text Encoding Initiative), extracción de 
 //p[contains(., 'corpus')]    (párrafos que contienen 'corpus')
 /TEI/text/@lang               (valor del atributo lang)
 ```
+
+---
+
+*Ver también: [XML](xml.md) — XPath navega documentos XML · [jq](jq.md) — equivalente para JSON*

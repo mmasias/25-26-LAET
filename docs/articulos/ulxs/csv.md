@@ -39,3 +39,7 @@ rápidamente,rápidamente,ADV,567
 el,el,DET,98432
 lingüista,lingüista,NOUN,89
 ```
+
+---
+
+*Ver también: [JSON](json.md) · [YAML](yaml.md) · [XML](xml.md) · [jq](jq.md) — formatos alternativos y herramientas de procesamiento*

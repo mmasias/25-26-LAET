@@ -58,3 +58,7 @@ Toda página web. Documentación técnica publicada online. Corpus web (Common C
 </body>
 </html>
 ```
+
+---
+
+*Ver también: [SGML](sgml.md) — antecesor · [XML](xml.md) — hermano más estricto · [SVG](svg.md) — vive en el DOM · [Markdown](markdown.md) — alternativa ligera*

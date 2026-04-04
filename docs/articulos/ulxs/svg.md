@@ -59,3 +59,7 @@ Iconografía, infografía, diagramas lingüísticos publicables (árboles de con
   </g>
 </svg>
 ```
+
+---
+
+*Ver también: [XML](xml.md) — SVG es un dialecto de XML · [HTML](html.md) — SVG vive en el DOM*

@@ -51,3 +51,7 @@ oración = sn , sv ;
 sn      = det , n , [ sadj ] ;
 sv      = v , [ sn | sadj ] ;
 ```
+
+---
+
+*Ver también: [Expresiones Regulares](regex.md) · [XML](xml.md) — las DTD usan notación derivada de BNF*

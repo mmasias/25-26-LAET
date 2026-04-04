@@ -50,3 +50,7 @@ ex:correr_sentido1
   lemon:definition "Moverse rápidamente a pie"@es ;
   lexinfo:senseRelation ex:huir_sentido1 .
 ```
+
+---
+
+*Ver también: [XML](xml.md) — RDF puede serializarse en XML · [XPath](xpath.md) — SPARQL es su equivalente para grafos*

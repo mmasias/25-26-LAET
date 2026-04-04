@@ -56,3 +56,7 @@ descripcion: |
   registros formales e informales
   de 1980 a 2023.
 ```
+
+---
+
+*Ver también: [JSON](json.md) — todo JSON válido es YAML válido · [TOML](toml.md) — alternativa más estricta*

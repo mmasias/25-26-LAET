@@ -48,3 +48,7 @@ El español tiene **5 vocales** y aproximadamente *20 consonantes*.
 /pato/ ≠ /bato/   →  par mínimo
 ```
 ````
+
+---
+
+*Ver también: [HTML](html.md) — Markdown compila a HTML · [LaTeX](latex.md) — alternativa para documentos técnicos*

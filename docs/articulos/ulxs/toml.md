@@ -59,3 +59,7 @@ nombre = "Ana García"
 institucion = "CSIC"
 orcid = "0000-0001-2345-6789"
 ```
+
+---
+
+*Ver también: [YAML](yaml.md) · [JSON](json.md) — alternativas de configuración*

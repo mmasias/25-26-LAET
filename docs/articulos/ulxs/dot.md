@@ -53,3 +53,7 @@ digraph ArbolSintactico {
   N -> V [style=dashed, label="agente", color=gray]
 }
 ```
+
+---
+
+*Ver también: [PlantUML](plantuml.md) · [Mermaid](mermaid.md) — alternativas de alto nivel para diagramas*

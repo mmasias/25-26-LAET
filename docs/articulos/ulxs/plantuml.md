@@ -53,3 +53,7 @@ note right of GI
 end note
 @enduml
 ```
+
+---
+
+*Ver también: [DOT](dot.md) · [Mermaid](mermaid.md) — alternativas · [Markdown](markdown.md) — en GitHub, Mermaid se escribe dentro de Markdown*

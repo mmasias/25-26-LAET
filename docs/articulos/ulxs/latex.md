@@ -54,3 +54,7 @@ La regla de asimilación es:
 
 \end{document}
 ```
+
+---
+
+*Ver también: [Markdown](markdown.md) — alternativa ligera · [SGML](sgml.md) — antecesor*

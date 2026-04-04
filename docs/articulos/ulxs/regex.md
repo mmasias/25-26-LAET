@@ -45,3 +45,7 @@ Validación de entrada, extracción de datos, transformación de texto, análisi
 // Número de sílabas aproximado (conteo de vocales)
 const silabas = palabra.match(/[aeiouáéíóúü]/gi)?.length ?? 0;
 ```
+
+---
+
+*Ver también: [BNF/EBNF](bnf.md) — ambos describen lenguajes formales*
