@@ -32,9 +32,9 @@ Especificación formal de lenguajes de programación, protocolos y formatos. Doc
 
 ### Ejemplo(s)
 
-```bnf
-/* Gramática para oraciones simples en español */
+#### Gramática para oraciones simples en español
 
+```bnf
 oracion ::= sn sv
 sn      ::= det n sadj?
 sv      ::= v ( sn | sadj )?
@@ -48,6 +48,8 @@ adj     ::= "rápido" | "complejo" | "preciso"
 adv     ::= "muy" | "bastante" | "poco"
 ```
 
+#### Expresiones aritméticas
+
 ```bnf
 expression ::= term ( ( '+' | '-' ) term )*
 term       ::= factor ( ( '*' | '/' ) factor )*
@@ -55,6 +57,18 @@ factor     ::= number | '(' expression ')'
 number     ::= digit+
 digit      ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 ```
+
+> ***2Think:***
+>
+> Resulta interesante que la jerarquía `expression → term → factor` no es arbitraria: codifica precedencia de operadores sin decirlo explícitamente:
+> 
+> - `factor` es lo más profundo — números y paréntesis. Máxima prioridad.
+> - `term` agrupa multiplicaciones y divisiones. Prioridad media.
+> - `expression` agrupa sumas y restas. Mínima prioridad.
+> 
+> Cuando el parser procesa `3 + 4 * 2`, la estructura del árbol que genera esta gramática produce automáticamente `3 + (4 * 2)` y no `(3 + 4) * 2`. No porque haya una regla que diga "multiplicación antes que suma" — sino porque la jerarquía de producciones lo impone estructuralmente.
+> 
+> La precedencia no está declarada. Está esculpida en la forma de la gramática.
 
 #### La U
 
