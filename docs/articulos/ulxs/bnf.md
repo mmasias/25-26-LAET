@@ -339,7 +339,7 @@ enfrentamiento_directo ::= fase_ganon_bestia fase_calamidad
 
 El problema estructural que explota al formalizarlo:
 
-`mision ::= mision_principal?` — el signo de interrogación lo dice todo. **La misión principal es opcional.** Puedes ir directamente a Ganon desde el minuto cinco. Ningún Zelda anterior permitía eso y ninguna gramática anterior lo hubiera escrito así.
+`mision ::= mision_principal?` — el signo de interrogación lo dice todo. **La misión principal es opcional.** Se puede ir directamente a Ganon desde el minuto cinco. Ningún Zelda anterior permitía eso y ninguna gramática anterior lo hubiera escrito así.
 
 Las diferencias estructurales respecto a Zelda clásico:
 
@@ -352,6 +352,21 @@ La conclusión que emerge: BotW no tiene gramática de juego. Tiene gramática d
 
 Nintendo cambió la relación de dependencia. La gramática lo hace obvio en una línea.
 
+#### 2Think
+
+**Tesis:** Zelda breath of the wild es Ultima IV
+
+La gramática lo confirma sin ambigüedad.
+
+Ultima I (1981): `mundo ::= mision`. El mundo es un contenedor de la misión.
+
+Ultima IV (1985): `partida ::= mundo mision?`. La misión emerge del mundo, no al revés. Nadie dice "ve a hacer esto". Se descubre que existe algo por recorrer y actuar en el mundo. La virtud no se impone, se encuentra.
+
+Ultima VI (1990): `partida ::= mundo comprension`. Ni siquiera hay misión en el sentido clásico. Lo que hay es una pregunta mal planteada que el jugador tiene que reformular solo. El "enemigo" no se derrota, se comprende.
+
+BotW (2017) llega 32 años después y la prensa lo llama revolución del mundo abierto. Garriott lo había escrito mucho antes.
+
+La diferencia es que Garriott lo hizo con intención filosófica explícita: el sistema de virtudes, la empatía con las gárgolas, el Codex como objeto de conocimiento y no de poder. Nintendo lo hizo como diseño de juego. El resultado estructural es el mismo; la gramática subyacente, idéntica. La motivación, completamente distinta.
 
 ---
 
