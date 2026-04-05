@@ -49,7 +49,9 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 
 </div>
 
-### Literales
+### Taxonomía
+
+#### Literales
 
 Caracteres que se buscan tal cual. Tres tipos:
 
@@ -65,7 +67,7 @@ Caracteres que se buscan tal cual. Tres tipos:
 
 La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
 
-### Metacaracteres
+#### Metacaracteres
 
 Símbolos con significado especial que representan categorías de caracteres:
 
@@ -81,7 +83,7 @@ Símbolos con significado especial que representan categorías de caracteres:
 
 </div>
 
-### Clases de caracteres
+#### Clases de caracteres
 
 Conjuntos definidos entre corchetes. Solo se busca uno de los caracteres listados:
 
@@ -96,7 +98,7 @@ Conjuntos definidos entre corchetes. Solo se busca uno de los caracteres listado
 
 </div>
 
-### Cuantificadores
+#### Cuantificadores
 
 Indican cuántas veces se repite el elemento anterior:
 
@@ -113,7 +115,7 @@ Indican cuántas veces se repite el elemento anterior:
 
 </div>
 
-### Anclas
+#### Anclas
 
 Posicionan la búsqueda sin consumir caracteres:
 
@@ -127,7 +129,7 @@ Posicionan la búsqueda sin consumir caracteres:
 
 </div>
 
-### Grupos
+#### Grupos
 
 Los paréntesis agrupan y capturan:
 
@@ -231,3 +233,15 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 </div>
 
 Una notación diseñada para describir lenguajes formales recorrió setenta años y tres disciplinas -matemáticas, informática, lingüística computacional- antes de llegar al navegador.
+
+### Nota sobre implementaciones
+
+La sintaxis presentada aquí es válida en la mayoría de entornos. Sin embargo, cada motor de expresiones regulares tiene sus particularidades: lo que funciona en uno puede no funcionar en otro.
+
+| Motor | Usado en | Referencia |
+|---|---|---|
+| PCRE | regexr.com, PHP, R, editores de texto | [pcre.org](https://www.pcre.org/) |
+| `re` | Python, spaCy | [docs.python.org/re](https://docs.python.org/3/library/re.html) |
+| RE2 | Go, herramientas Google | [github.com/google/re2](https://github.com/google/re2/blob/main/doc/syntax.txt) |
+
+Si un patrón no funciona como se espera, conviene consultar la documentación del motor concreto. La diferencia más habitual: RE2 no admite referencias retrospectivas (`\1`), por razones de eficiencia computacional.
