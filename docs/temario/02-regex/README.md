@@ -4,7 +4,6 @@
 
 En 1956 se publicaron dos trabajos que partían de la misma pregunta: ¿qué es un lenguaje, formalmente? ¿Qué estructuras lo definen? ¿Qué puede y qué no puede reconocer una máquina?
 
-<div align=center>
 
 |Stephen Kleene, *matemático*|Noam Chomsky, *lingüista*|
 |-|-|
@@ -12,7 +11,6 @@ Definía una notación para describir conjuntos de cadenas de símbolos mediante
 Le llamó ***expresiones regulares***.|Al nivel más bajo, el más simple, le llamó ***lenguajes regulares***.
 |[*Representation of Events in Nerve Nets and Finite Automata*](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2008/RM704.pdf)|[*Three Models for the Description of Language*](https://chomsky.info/wp-content/uploads/195609-.pdf)|
 
-</div>
 
 Dos disciplinas, dos vocabularios, un único objeto matemático. No es una coincidencia: ambos investigaban el mismo problema desde ángulos distintos y llegaron al mismo sitio.
 
@@ -27,7 +25,6 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 
 ## ¿Para qué?
 
-<div align=center>
 
 | Original (teoría) | Práctica general | Práctica lingüística |
 |---|---|---|
@@ -37,17 +34,14 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 | | Limpiar datos en bruto | Eliminar metadatos, etiquetas, URLs |
 | | Detectar patrones repetitivos | Identificar anglicismos por sufijo |
 
-</div>
 
 ## ¿Cómo?
 
-<div align=center>
 
 |![](/images/modelosUML/regex-taxonomy-simple.svg)
 |-
 | [Ver taxonomía completa](mapa.md) |
 
-</div>
 
 ### Taxonomía
 
@@ -55,7 +49,6 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 
 Caracteres que se buscan tal cual. Tres tipos:
 
-<div align=center>
 
 | Tipo | Ejemplo | Busca |
 |---|---|---|
@@ -63,7 +56,6 @@ Caracteres que se buscan tal cual. Tres tipos:
 | Espacio escapado | `\t` `\n` `\r` | tabulación, salto de línea, retorno de carro |
 | Metacarácter escapado | `\.` `\*` `\(` `\[` … | cualquier metacarácter precedido de `\` pierde su significado especial y se busca como literal |
 
-</div>
 
 La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
 
@@ -71,7 +63,6 @@ La búsqueda distingue mayúsculas de minúsculas salvo indicación contraria.
 
 Símbolos con significado especial que representan categorías de caracteres:
 
-<div align=center>
 
 | Metacarácter | Representa |
 |---|---|
@@ -81,13 +72,11 @@ Símbolos con significado especial que representan categorías de caracteres:
 | `\s` | cualquier espacio en blanco (espacio, tabulación, salto de línea) |
 | `\D` `\W` `\S` | la negación de los anteriores |
 
-</div>
 
 #### Clases de caracteres
 
 Conjuntos definidos entre corchetes. Solo se busca uno de los caracteres listados:
 
-<div align=center>
 
 | Construcción | Representa |
 |---|---|
@@ -96,13 +85,11 @@ Conjuntos definidos entre corchetes. Solo se busca uno de los caracteres listado
 | `[a-z]` | cualquier letra minúscula |
 | `[a-záéíóúüñ]` | cualquier letra minúscula del español |
 
-</div>
 
 #### Cuantificadores
 
 Indican cuántas veces se repite el elemento anterior:
 
-<div align=center>
 
 | Cuantificador | Significado |
 |---|---|
@@ -113,13 +100,11 @@ Indican cuántas veces se repite el elemento anterior:
 | `{2,4}` | entre 2 y 4 veces |
 | `{2,}` | 2 o más veces |
 
-</div>
 
 #### Anclas
 
 Posicionan la búsqueda sin consumir caracteres:
 
-<div align=center>
 
 | Ancla | Posición |
 |---|---|
@@ -127,13 +112,11 @@ Posicionan la búsqueda sin consumir caracteres:
 | `$` | fin de línea |
 | `\b` | límite de palabra (frontera entre `\w` y `\W`) |
 
-</div>
 
 #### Grupos
 
 Los paréntesis agrupan y capturan:
 
-<div align=center>
 
 | Construcción | Uso |
 |---|---|
@@ -141,11 +124,9 @@ Los paréntesis agrupan y capturan:
 | `(?:patrón)` | grupo no capturador: agrupa sin extraer |
 | `(a\|b)` | alternativa: `a` o `b` |
 
-</div>
 
 ### Ejemplos
 
-<div align=center>
 
 | Patrón | Coincide con | No coincide con |
 |---|---|---|
@@ -156,7 +137,6 @@ Los paréntesis agrupan y capturan:
 | `[aeiou]` | `a`, `e`, `i`, `o`, `u` | `b`, `c`, `F` |
 | `^Ibuprofeno` | `Ibuprofeno Fernández` | `Hola Ibuprofeno` |
 
-</div>
 
 En la práctica, una forma de construir las expresiones regulares es de adentro hacia afuera: primero se identifica el patrón mínimo que describe lo que se busca, luego se añaden repeticiones o restricciones.
 
@@ -172,7 +152,6 @@ Ver más en https://corpus.rae.es - #neologismos #lenguajeDigital
 
 **Limpiar** - eliminar ruido no textual:
 
-<div align=center>
 
 | Qué eliminar | Regex | Encuentra |
 |---|---|---|
@@ -180,7 +159,6 @@ Ver más en https://corpus.rae.es - #neologismos #lenguajeDigital
 | Menciones | `@\w+` | @linguista
 | Hashtags | `#\w+` | #neologismos #lenguajeDigital
 
-</div>
 
 Si lo aplicamos eliminando lo que encuentra tendremos:
 
@@ -192,7 +170,6 @@ Ver más en -
 
 **Extraer patrones** - encontrar estructuras específicas:
 
-<div align=center>
 
 | Qué extraer | Regex | Encuentra |
 |---|---|---|
@@ -201,17 +178,14 @@ Ver más en -
 | Palabras terminadas en `-ing` | `\b[a-zA-Z]+ing\b` | `ghosting` |
 | Verbos en infinitivo | `\b\w+(ar\|er\|ir)\b` | `publicar`, `aparecer` |
 
-</div>
 
 **Normalizar** - estandarizar formatos:
 
-<div align=center>
 
 | Buscar | Encuentra | Reemplazar | Devuelve |
 |---|---|---|---|
 | `(\d{2})/(\d{2})/(\d{4})` | `12/03/2024` | `$3-$2-$1` | `2024-03-12` |
 
-</div>
 
 Los grupos capturados permiten reordenar partes del texto sin reescribirlas.
 
@@ -219,7 +193,6 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 
 ### Trayectoria: de la teoría a la herramienta
 
-<div align=center>
 
 | Año | Hito |
 |---|---|
@@ -230,7 +203,6 @@ Para una referencia exhaustiva de toda la taxonomía: [regular-expressions.info]
 | 1990s-2000s | Se integran en editores de texto, IDEs y bases de datos |
 | Hoy | Disponibles en múltiples herramientas ofimáticas, de desarrollo y en el navegador |
 
-</div>
 
 Una notación diseñada para describir lenguajes formales recorrió setenta años y tres disciplinas -matemáticas, informática, lingüística computacional- antes de llegar al navegador.
 
