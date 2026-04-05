@@ -4,13 +4,11 @@
 
 En 1956 se publicaron dos trabajos que partían de la misma pregunta: ¿qué es un lenguaje, formalmente? ¿Qué estructuras lo definen? ¿Qué puede y qué no puede reconocer una máquina?
 
-
 |Stephen Kleene, *matemático*|Noam Chomsky, *lingüista*|
 |-|-|
 Definía una notación para describir conjuntos de cadenas de símbolos mediante reglas de composición.|Clasificaba los lenguajes en cuatro niveles según la complejidad de sus reglas.
 Le llamó ***expresiones regulares***.|Al nivel más bajo, el más simple, le llamó ***lenguajes regulares***.
 |[*Representation of Events in Nerve Nets and Finite Automata*](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2008/RM704.pdf)|[*Three Models for the Description of Language*](https://chomsky.info/wp-content/uploads/195609-.pdf)|
-
 
 Dos disciplinas, dos vocabularios, un único objeto matemático. No es una coincidencia: ambos investigaban el mismo problema desde ángulos distintos y llegaron al mismo sitio.
 
@@ -40,7 +38,7 @@ Su potencia está en la composición: con pocos elementos se describen conjuntos
 ## ¿Cómo?
 
 
-|![](/images/modelosUML/regex-taxonomy-simple.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-simple.svg)
 |-
 | [Ver taxonomía completa](mapa.md) |
 

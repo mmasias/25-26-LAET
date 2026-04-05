@@ -2,7 +2,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-simple.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-simple.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-simple.puml)</sub>
 
@@ -12,7 +12,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-literales.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-literales.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-literales.puml)</sub>
 
@@ -22,7 +22,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-clases.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-clases.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-clases.puml)</sub>
 
@@ -32,7 +32,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-cuantificadores.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-cuantificadores.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-cuantificadores.puml)</sub>
 
@@ -42,7 +42,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-anclas.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-anclas.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-anclas.puml)</sub>
 
@@ -52,7 +52,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-grupos.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-grupos.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-grupos.puml)</sub>
 
@@ -62,7 +62,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-lookaround.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-lookaround.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-lookaround.puml)</sub>
 
@@ -72,7 +72,7 @@
 
 <div align=center>
 
-|![](/images/modelosUML/regex-taxonomy-flags.svg)
+|![](/docs/images/modelosUML/regex-taxonomy-flags.svg)
 |-:|
 |<sub>[Código fuente](/modelosUML/regex-taxonomy-flags.puml)</sub>
 
