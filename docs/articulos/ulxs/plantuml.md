@@ -56,4 +56,4 @@ end note
 
 ---
 
-*Ver también: [DOT](dot.md) · [Mermaid](mermaid.md) — alternativas · [Markdown](markdown.md) — en GitHub, Mermaid se escribe dentro de Markdown*
+*Ver también: [DOT](dot.md) · [Mermaid](mermaid.md) - alternativas · [Markdown](markdown.md) - en GitHub, Mermaid se escribe dentro de Markdown*

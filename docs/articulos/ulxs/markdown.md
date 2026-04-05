@@ -42,7 +42,7 @@ El español tiene **5 vocales** y aproximadamente *20 consonantes*.
 - [±sonoro]: distingue /p/ de /b/
 - [±nasal]: separa /m/ de /b/
 
-> "La lengua es el ropaje del pensamiento" — Samuel Johnson
+> "La lengua es el ropaje del pensamiento" - Samuel Johnson
 
 ```
 /pato/ ≠ /bato/   →  par mínimo
@@ -51,4 +51,4 @@ El español tiene **5 vocales** y aproximadamente *20 consonantes*.
 
 ---
 
-*Ver también: [HTML](html.md) — Markdown compila a HTML · [LaTeX](latex.md) — alternativa para documentos técnicos*
+*Ver también: [HTML](html.md) - Markdown compila a HTML · [LaTeX](latex.md) - alternativa para documentos técnicos*

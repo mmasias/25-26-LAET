@@ -56,4 +56,4 @@ APIs REST, archivos de configuración, almacenamiento de documentos. Ha desplaza
 
 ---
 
-*Ver también: [XML](xml.md) · [YAML](yaml.md) · [CSV](csv.md) — formatos alternativos · [jq](jq.md) — procesador de JSON*
+*Ver también: [XML](xml.md) · [YAML](yaml.md) · [CSV](csv.md) - formatos alternativos · [jq](jq.md) - procesador de JSON*

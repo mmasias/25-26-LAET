@@ -48,4 +48,4 @@ const silabas = palabra.match(/[aeiouáéíóúü]/gi)?.length ?? 0;
 
 ---
 
-*Ver también: [BNF/EBNF](bnf.md) — ambos describen lenguajes formales*
+*Ver también: [BNF/EBNF](bnf.md) - ambos describen lenguajes formales*

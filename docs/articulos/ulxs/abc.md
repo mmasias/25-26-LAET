@@ -49,17 +49,17 @@ K:Dmin
 ```abc
 X:2
 T:Highway to Hell
-C:AC/DC — Young, Young & Johnson (1979)
+C:AC/DC - Young, Young & Johnson (1979)
 M:4/4
 L:1/8
 Q:1/4=116
 K:Amaj
-% Intro — riff de acordes
+% Intro - riff de acordes
 |: "A5"[A,EA]4 z2 [A,EA]2 | "D/F#"[^FAd]4 "G5"[GBd]4 :|
-% Estrofa — "Livin' easy, livin' free"
+% Estrofa - "Livin' easy, livin' free"
 "D/F#"e4 z2 e2 | "G5"d4 B4 | "D/F#"e3 d B3 A | "A5"A8 |
 "D/F#"e4 z2 e2 | "G5"d4 d4 | "D/F#"B3 A "G5"G4 | "A5"A8 |
-% Estribillo — "I'm on the highway to hell"
+% Estribillo - "I'm on the highway to hell"
 "A"e2 e2 e2 d2 | "D/A"d4 A4 | "G5"B4 "D/F#"^f4 | "A"e8 |
 "A"e2 e2 e2 d2 | "D/A"d4 A4 | "G5"B2 A2 "D/F#"^f4 | "A"A8 |
 ```

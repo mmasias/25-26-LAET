@@ -57,4 +57,4 @@ La regla de asimilación es:
 
 ---
 
-*Ver también: [Markdown](markdown.md) — alternativa ligera · [SGML](sgml.md) — antecesor*
+*Ver también: [Markdown](markdown.md) - alternativa ligera · [SGML](sgml.md) - antecesor*

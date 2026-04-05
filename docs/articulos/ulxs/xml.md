@@ -59,4 +59,4 @@ Corpus lingüísticos anotados (TEI), documentos con estructura semántica expl�
 
 ---
 
-*Ver también: [SGML](sgml.md) — antecesor · [HTML](html.md) — hermano · [SVG](svg.md) — dialecto · [XPath](xpath.md) — lenguaje de consulta · [Turtle](turtle.md) — otro formato de datos semánticos*
+*Ver también: [SGML](sgml.md) - antecesor · [HTML](html.md) - hermano · [SVG](svg.md) - dialecto · [XPath](xpath.md) - lenguaje de consulta · [Turtle](turtle.md) - otro formato de datos semánticos*

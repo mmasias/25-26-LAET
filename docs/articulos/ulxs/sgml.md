@@ -51,4 +51,4 @@ Publicación técnica, documentación aeronáutica y militar, edición electrón
 
 ---
 
-*Ver también: [HTML](html.md) · [XML](xml.md) — sus dos descendientes directos*
+*Ver también: [HTML](html.md) · [XML](xml.md) - sus dos descendientes directos*

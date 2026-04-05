@@ -49,4 +49,4 @@ Extracción de campos de respuestas de APIs, transformación de resultados de sp
 
 ---
 
-*Ver también: [JSON](json.md) — jq procesa JSON · [XPath](xpath.md) — equivalente para XML*
+*Ver también: [JSON](json.md) - jq procesa JSON · [XPath](xpath.md) - equivalente para XML*

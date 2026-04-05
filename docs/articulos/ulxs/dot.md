@@ -56,4 +56,4 @@ digraph ArbolSintactico {
 
 ---
 
-*Ver también: [PlantUML](plantuml.md) · [Mermaid](mermaid.md) — alternativas de alto nivel para diagramas*
+*Ver también: [PlantUML](plantuml.md) · [Mermaid](mermaid.md) - alternativas de alto nivel para diagramas*

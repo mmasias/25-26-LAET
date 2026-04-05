@@ -53,4 +53,4 @@ Corpus lingüísticos en formato TEI (Text Encoding Initiative), extracción de 
 
 ---
 
-*Ver también: [XML](xml.md) — XPath navega documentos XML · [jq](jq.md) — equivalente para JSON*
+*Ver también: [XML](xml.md) - XPath navega documentos XML · [jq](jq.md) - equivalente para JSON*

@@ -18,7 +18,7 @@ Especificación formal de lenguajes de programación, protocolos y formatos. Doc
 
 ## ¿Cómo?
 
-> Copiar / Pegar / Ver en [LivePreview — Railroad Diagram Generator](https://bottlecaps.de/rr/ui)
+> Copiar / Pegar / Ver en [LivePreview - Railroad Diagram Generator](https://bottlecaps.de/rr/ui)
 
 ### Sintaxis
 
@@ -62,11 +62,11 @@ digit      ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 >
 > Resulta interesante que la jerarquía `expression → term → factor` no es arbitraria: codifica precedencia de operadores sin decirlo explícitamente:
 > 
-> - `factor` es lo más profundo — números y paréntesis. Máxima prioridad.
+> - `factor` es lo más profundo - números y paréntesis. Máxima prioridad.
 > - `term` agrupa multiplicaciones y divisiones. Prioridad media.
 > - `expression` agrupa sumas y restas. Mínima prioridad.
 > 
-> Cuando el parser procesa `3 + 4 * 2`, la estructura del árbol que genera esta gramática produce automáticamente `3 + (4 * 2)` y no `(3 + 4) * 2`. No porque haya una regla que diga "multiplicación antes que suma" — sino porque la jerarquía de producciones lo impone estructuralmente.
+> Cuando el parser procesa `3 + 4 * 2`, la estructura del árbol que genera esta gramática produce automáticamente `3 + (4 * 2)` y no `(3 + 4) * 2`. No porque haya una regla que diga "multiplicación antes que suma" - sino porque la jerarquía de producciones lo impone estructuralmente.
 > 
 > La precedencia no está declarada. Está esculpida en la forma de la gramática.
 
@@ -353,14 +353,14 @@ enfrentamiento_directo ::= fase_ganon_bestia fase_calamidad
 
 El problema estructural que explota al formalizarlo:
 
-`mision ::= mision_principal?` — el signo de interrogación lo dice todo. **La misión principal es opcional.** Se puede ir directamente a Ganon desde el minuto cinco. Ningún Zelda anterior permitía eso y ninguna gramática anterior lo hubiera escrito así.
+`mision ::= mision_principal?` - el signo de interrogación lo dice todo. **La misión principal es opcional.** Se puede ir directamente a Ganon desde el minuto cinco. Ningún Zelda anterior permitía eso y ninguna gramática anterior lo hubiera escrito así.
 
 Las diferencias estructurales respecto a Zelda clásico:
 
-- `equipo ::= arma*` con asterisco — las armas son consumibles, no items permanentes. En Zelda clásico `espada` era un terminal fijo. Aquí es `arma_con_durabilidad` con estado.
-- `bestia_divina*` en la misión principal — cero o más. Puedes derrotar a Ganon habiendo liberado ninguna, una, o las cuatro. La gramática no impone orden ni cantidad.
-- `korok*` en hyrule — novecientos coleccionables opcionales diseminados. La gramática los modela como ruido de fondo del mundo, no como estructura.
-- `santuario` aparece en tres niveles distintos: en `hyrule`, en `mision` y como fuente de `esfera_espiritu`. Es el átomo estructural del juego — reemplaza al dungeon clásico.
+- `equipo ::= arma*` con asterisco - las armas son consumibles, no items permanentes. En Zelda clásico `espada` era un terminal fijo. Aquí es `arma_con_durabilidad` con estado.
+- `bestia_divina*` en la misión principal - cero o más. Puedes derrotar a Ganon habiendo liberado ninguna, una, o las cuatro. La gramática no impone orden ni cantidad.
+- `korok*` en hyrule - novecientos coleccionables opcionales diseminados. La gramática los modela como ruido de fondo del mundo, no como estructura.
+- `santuario` aparece en tres niveles distintos: en `hyrule`, en `mision` y como fuente de `esfera_espiritu`. Es el átomo estructural del juego - reemplaza al dungeon clásico.
 
 La conclusión que emerge: BotW no tiene gramática de juego. Tiene gramática de **mundo**. La diferencia es que en Zelda clásico el mundo existe para servir a la misión. En BotW la misión existe opcionalmente dentro del mundo.
 
@@ -384,4 +384,4 @@ La diferencia es que Garriott lo hizo con intención filosófica explícita: el 
 
 ---
 
-*Ver también: [Expresiones Regulares](regex.md) · [XML](xml.md) — las DTD usan notación derivada de BNF*
+*Ver también: [Expresiones Regulares](regex.md) · [XML](xml.md) - las DTD usan notación derivada de BNF*

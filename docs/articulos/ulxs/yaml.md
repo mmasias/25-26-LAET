@@ -59,4 +59,4 @@ descripcion: |
 
 ---
 
-*Ver también: [JSON](json.md) — todo JSON válido es YAML válido · [TOML](toml.md) — alternativa más estricta*
+*Ver también: [JSON](json.md) - todo JSON válido es YAML válido · [TOML](toml.md) - alternativa más estricta*

@@ -21,6 +21,8 @@ Una expresión regular es una cadena de caracteres que describe un conjunto de c
 - **Literales:** caracteres que se buscan tal cual (`casa`, `@`, `.`)
 - **Metacaracteres:** símbolos con significado especial - cualquier carácter, repetición, alternativa, posición
 
+Estructuralmente, una expresión regular es una secuencia de tokens - unidades mínimas con significado dentro del patrón - donde cada token es un literal o un metacarácter.
+
 Su potencia está en la composición: con pocos elementos se describen conjuntos arbitrariamente complejos. No se busca una cadena concreta, sino una clase entera de cadenas posibles.
 
 ## ¿Para qué?

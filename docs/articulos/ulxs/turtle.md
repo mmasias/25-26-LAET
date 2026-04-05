@@ -53,4 +53,4 @@ ex:correr_sentido1
 
 ---
 
-*Ver también: [XML](xml.md) — RDF puede serializarse en XML · [XPath](xpath.md) — SPARQL es su equivalente para grafos*
+*Ver también: [XML](xml.md) - RDF puede serializarse en XML · [XPath](xpath.md) - SPARQL es su equivalente para grafos*

@@ -49,4 +49,4 @@ flowchart TD
 
 ---
 
-*Ver también: [PlantUML](plantuml.md) · [DOT](dot.md) — alternativas · [Markdown](markdown.md) — Mermaid se escribe dentro de bloques Markdown*
+*Ver también: [PlantUML](plantuml.md) · [DOT](dot.md) - alternativas · [Markdown](markdown.md) - Mermaid se escribe dentro de bloques Markdown*

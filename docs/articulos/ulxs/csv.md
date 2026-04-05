@@ -42,4 +42,4 @@ lingüista,lingüista,NOUN,89
 
 ---
 
-*Ver también: [JSON](json.md) · [YAML](yaml.md) · [XML](xml.md) · [jq](jq.md) — formatos alternativos y herramientas de procesamiento*
+*Ver también: [JSON](json.md) · [YAML](yaml.md) · [XML](xml.md) · [jq](jq.md) - formatos alternativos y herramientas de procesamiento*

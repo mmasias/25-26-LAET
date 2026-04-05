@@ -1,4 +1,4 @@
-# Práctica autónoma — Regex básico
+# Práctica autónoma - Regex básico
 
 Material de práctica opcional para consolidar lo trabajado en clase.
 
