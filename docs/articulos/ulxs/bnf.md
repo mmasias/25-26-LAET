@@ -385,3 +385,14 @@ La diferencia es que Garriott lo hizo con intención filosófica explícita: el 
 ---
 
 *Ver también: [Expresiones Regulares](regex.md) · [XML](xml.md) - las DTD usan notación derivada de BNF*
+
+```bnf
+regex         ::= alternacion
+alternacion   ::= concatenacion ( '|' concatenacion )*
+concatenacion ::= cuantificado*
+cuantificado  ::= atomo cuantificador?
+cuantificador ::= '*' | '+' | '?' | '{' numero '}'
+atomo         ::= caracter | '.' | '(' regex ')' | '[' clase ']'
+clase         ::= '^'? item+
+item          ::= caracter | caracter '-' caracter
+```
