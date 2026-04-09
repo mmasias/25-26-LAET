@@ -2,6 +2,11 @@
 
 > *Entiéndase "deberíamos saber" como una combinación de "nos debería sonar", "no nos debería sorprender", "deberíamos conocer", "deberíamos saber manejar", en función del tema abordado. En cualquier caso, lo mínimo es "no nos debería sorprender" y deberíamos poder tener una mínima conversación o lectura sobre estos temas.*
 
+## 9 de abril
+
+- Uso de expresiones regulares para encontrar diversos patrones. Pero sobretodo entender cómo y por qué encuentran lo que encuentran.
+- BNF, metalenguaje formal utilizado para definir la gramática de un lenguaje mediante reglas de sustitución, equivalente a una gramática generativa de estructura sintagmática.
+
 ## 7 de abril
 
 - Expresiones regulares: una notación para describir conjuntos de cadenas de símbolos mediante reglas de composición. Literales, metacaracteres, clases de caracteres, cuantificadores, ancla de inicio y de fin.
