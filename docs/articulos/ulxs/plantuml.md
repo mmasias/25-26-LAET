@@ -30,11 +30,11 @@ Documentación de software, arquitectura de sistemas, modelado de procesos. Los 
 | `note left/right of` | anotaciones flotantes |
 | `: texto :` | etiqueta en transición de estado |
 
-### Ejemplo
+### Diagrama de secuencia
 
 ```plantuml
 @startuml
-' Diagrama de adquisición fonológica
+' Adquisición fonológica
 
 actor Niño
 participant "Input\nLingüístico" as IL
@@ -53,6 +53,77 @@ note right of GI
 end note
 @enduml
 ```
+
+### Diagrama de clases
+
+```plantuml
+@startuml
+' Estructura de un corpus anotado
+
+class Corpus {
+  +nombre: String
+  +idioma: String
+  +tamaño: int
+}
+
+class Documento {
+  +título: String
+  +fuente: String
+  +fecha: String
+}
+
+class Oración {
+  +id: int
+  +texto: String
+}
+
+class Token {
+  +forma: String
+  +lema: String
+  +pos: String
+}
+
+Corpus "1" *-- "1..*" Documento
+Documento "1" *-- "1..*" Oración
+Oración "1" *-- "1..*" Token
+@enduml
+```
+
+### Diagrama de estados
+
+```plantuml
+@startuml
+' Ciclo de vida de una traducción
+
+[*] --> Original
+
+Original --> EnTraducción : asignar
+EnTraducción --> Traducido : completar
+Traducido --> EnRevisión : enviar
+EnRevisión --> Aprobado : aprobar
+EnRevisión --> EnTraducción : rechazar
+Aprobado --> Publicado : publicar
+Publicado --> [*]
+@enduml
+```
+
+## ¿Y ahora qué?
+
+Todos los diagramas de esta asignatura están escritos en PlantUML. El código fuente está disponible y es legible directamente:
+
+| Diagrama | Tipo | Fuente |
+|---|---|---|
+| Mapa de la ingeniería lingüística | Clases | [ingenieria-linguistica-alternativo.puml](/docs/modelosUML/ingenieria-linguistica-alternativo.puml) |
+| Flujo de trabajo editorial (teórico) | Estados | [day-in-the-life-teorico.puml](/docs/modelosUML/day-in-the-life-teorico.puml) |
+| Flujo de trabajo editorial (real) | Estados | [day-in-the-life-real.puml](/docs/modelosUML/day-in-the-life-real.puml) |
+| Taxonomía de regex (completa) | Clases | [regex-taxonomy-simple.puml](/docs/modelosUML/regex-taxonomy-simple.puml) |
+| Taxonomía: literales | Clases | [regex-taxonomy-literales.puml](/modelosUML/regex-taxonomy-literales.puml) |
+| Taxonomía: metacaracteres y clases | Clases | [regex-taxonomy-clases.puml](/modelosUML/regex-taxonomy-clases.puml) |
+| Taxonomía: cuantificadores | Clases | [regex-taxonomy-cuantificadores.puml](/modelosUML/regex-taxonomy-cuantificadores.puml) |
+| Taxonomía: anclas | Clases | [regex-taxonomy-anclas.puml](/modelosUML/regex-taxonomy-anclas.puml) |
+| Taxonomía: grupos | Clases | [regex-taxonomy-grupos.puml](/modelosUML/regex-taxonomy-grupos.puml) |
+| Taxonomía: lookaround | Clases | [regex-taxonomy-lookaround.puml](/modelosUML/regex-taxonomy-lookaround.puml) |
+| Taxonomía: flags | Clases | [regex-taxonomy-flags.puml](/modelosUML/regex-taxonomy-flags.puml) |
 
 ---
 
