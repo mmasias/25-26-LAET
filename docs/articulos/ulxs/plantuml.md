@@ -89,6 +89,36 @@ Oración "1" *-- "1..*" Token
 @enduml
 ```
 
+### Diagrama de flujo
+
+En PlantUML se llaman *diagramas de actividad*, pero son los diagramas de flujo habituales: cajas, rombos de decisión, flechas.
+
+```plantuml
+@startuml
+' Decisión de préstamo vs. traducción
+
+start
+
+:Nuevo término en lengua origen;
+
+if (¿Existe equivalente en español?) then (sí)
+  if (¿El equivalente es de uso extendido?) then (sí)
+    :Usar equivalente en español;
+  else (no)
+    :Préstamo + nota del traductor;
+  endif
+else (no)
+  if (¿El concepto es adaptable?) then (sí)
+    :Crear calco o neologismo;
+  else (no)
+    :Préstamo con adaptación gráfica;
+  endif
+endif
+
+stop
+@enduml
+```
+
 ### Diagrama de estados
 
 ```plantuml
