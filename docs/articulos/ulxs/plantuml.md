@@ -119,7 +119,43 @@ stop
 @enduml
 ```
 
+El mismo proceso representado como diagrama de estados, usando `<<choice>>` para las decisiones:
+
+```plantuml
+@startuml
+' Decisión de préstamo vs. traducción (estados)
+
+[*] --> NuevoTérmino : nuevo término
+
+state D1 <<choice>>
+state D2 <<choice>>
+state D3 <<choice>>
+
+state "Equivalente\nen español" as EquivalenteEspañol
+state "Préstamo +\nnota" as PréstamoNota
+state "Calco o\nneologismo" as CalcoNeologismo
+state "Préstamo con\nadaptación gráfica" as PréstamoAdaptado
+
+NuevoTérmino --> D1
+D1 --> D2 : [hay equivalente en español]
+D1 --> D3 : [no hay equivalente]
+D2 --> EquivalenteEspañol : [uso extendido]
+D2 --> PréstamoNota : [uso marginal]
+D3 --> CalcoNeologismo : [concepto adaptable]
+D3 --> PréstamoAdaptado : [concepto no adaptable]
+
+EquivalenteEspañol --> [*]
+PréstamoNota --> [*]
+CalcoNeologismo --> [*]
+PréstamoAdaptado --> [*]
+@enduml
+```
+
+El diagrama de estados con `<<choice>>` contiene la misma información que el de flujo, pero sin la jerarquía anidada de `if/else`. Las decisiones son nodos más, no estructuras de control.
+
 ### Diagrama de estados
+
+Sin decisiones, el diagrama de estados es lineal y más legible que su equivalente de flujo:
 
 ```plantuml
 @startuml
