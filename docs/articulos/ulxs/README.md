@@ -4,8 +4,8 @@ Colección de fichas de referencia rápida sobre lenguajes formales, de marcado 
 
 | Lenguaje | Paradigma | Año |
 |-|-|-|
-| [Expresiones Regulares](regex.md) | Lenguaje formal / teoría de autómatas | 1956 |
-| [BNF / EBNF](bnf.md) | Metalenguaje (gramática formal) | 1960 |
+| [**Expresiones Regulares**](regex.md) | Lenguaje formal / teoría de autómatas | 1956 |
+| [**BNF / EBNF**](bnf.md) | Metalenguaje (gramática formal) | 1960 |
 | [CSV](csv.md) | Formato de datos tabulares | 1972 |
 | [LaTeX](latex.md) | Sistema de composición tipográfica | 1984 |
 | [SGML](sgml.md) | Metalenguaje de marcado | 1986 |
@@ -17,7 +17,7 @@ Colección de fichas de referencia rápida sobre lenguajes formales, de marcado 
 | [XPath](xpath.md) | Lenguaje de consulta sobre XML | 1999 |
 | [JSON](json.md) | Formato de intercambio de datos | 2001 |
 | [YAML](yaml.md) | Lenguaje de serialización de datos | 2001 |
-| [Markdown](markdown.md) | Lenguaje de marcado ligero | 2004 |
+| [**Markdown**](markdown.md) | Lenguaje de marcado ligero | 2004 |
 | [Turtle (RDF)](turtle.md) | Serialización de grafos semánticos | 2008 |
 | [Gherkin](gherkin.md) | DSL para especificación ejecutable | 2008 |
 | [PlantUML](plantuml.md) | DSL para diagramas | 2009 |
