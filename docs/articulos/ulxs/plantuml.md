@@ -18,7 +18,7 @@ Documentación de software, arquitectura de sistemas, modelado de procesos. Los 
 
 ## ¿Cómo?
 
-> [LivePreview](https://www.plantuml.com/plantuml) · [PlantText](https://www.planttext.com/)
+> [LivePreview](https://editor.plantuml.com/) · [PlantText](https://www.planttext.com/)
 
 ### Sintaxis
 
