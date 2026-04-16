@@ -69,3 +69,5 @@ Las tres funciones usan el motor **RE2** de Google. Las diferencias más relevan
 | Grupos capturadores en reemplazo | Sí (`\1`, `\2`…) | Sí (`$1`, `$2`…) |
 
 Si un patrón funciona en regexr.com pero falla en Sheets, la causa más probable es alguna de estas diferencias.
+
+> [*Hoja de referencia*](https://docs.google.com/spreadsheets/d/1fSovq5M3GRsjEQ5X8wA-ApmveHBwpkhFvCzxzvGZ2bo/edit?usp=sharing)
