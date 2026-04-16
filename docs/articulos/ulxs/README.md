@@ -20,7 +20,7 @@ Colección de fichas de referencia rápida sobre lenguajes formales, de marcado 
 | [**Markdown**](markdown.md) | Lenguaje de marcado ligero | 2004 |
 | [Turtle (RDF)](turtle.md) | Serialización de grafos semánticos | 2008 |
 | [Gherkin](gherkin.md) | DSL para especificación ejecutable | 2008 |
-| [PlantUML](plantuml.md) | DSL para diagramas | 2009 |
+| [**PlantUML**](plantuml.md) | DSL para diagramas | 2009 |
 | [jq](jq.md) | Procesador de JSON | 2012 |
 | [TOML](toml.md) | Lenguaje de configuración | 2013 |
 | [Mermaid](mermaid.md) | DSL de diagramas en Markdown | 2014 |
