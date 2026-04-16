@@ -24,7 +24,7 @@ Documentación de software, arquitectura de sistemas, modelado de procesos. Los 
 
 > Sintaxis completa en: https://plantuml.com/es/
 >
-> [Diagramas de estados](https://plantuml.com/es/state-diagram) / [Diagramas de flujo](https://plantuml.com/es/activity-diagram-beta) / [Mapas mentales](https://plantuml.com/es/mindmap-diagram)
+> [Diagramas de estados](https://plantuml.com/es/state-diagram) / [Diagramas de flujo](https://plantuml.com/es/activity-diagram-beta) / [Mapas mentales](https://plantuml.com/es/mindmap-diagram) / [Diagramas de Gantt](https://plantuml.com/es/gantt-diagram)
 
 | Construcción | Significado |
 |---|---|
