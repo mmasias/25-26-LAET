@@ -70,11 +70,11 @@ Antes de abrir el primero, conviene leer el marco pedagógico que orienta la pro
 
 | Notebook | Fase | Qué se hace |
 |---|:-:|---|
-| [00 - Entorno](colab-00-entorno.ipynb) | Orientación | Reconocer el entorno: celdas de texto, celdas de código, output. Ejecutar tres celdas. |
-| [01 - Leer](colab-01-leer.ipynb) | Leer y ejecutar | El código está escrito. Se ejecuta y se responde: ¿qué devuelve esto, y por qué? |
-| [02 - Modificar](colab-02-modificar.ipynb) | Modificar una línea | Tres tareas, cada una con una línea marcada para cambiar. El resto no se toca. |
-| [03 - Completar](colab-03-completar.ipynb) | Completar huecos | Tres tareas con huecos explícitos (`___`). Un hueco por tarea. |
-| [04 - Construir](colab-04-construir.ipynb) | Construir desde plantilla | Código completo, tarea lingüística. Patrón libre sobre el corpus o sobre uno propio. |
+| [00 - Entorno](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/02-regex/colab-00-entorno.ipynb) | Orientación | Reconocer el entorno: celdas de texto, celdas de código, output. Ejecutar tres celdas. |
+| [01 - Leer](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/02-regex/colab-01-leer.ipynb) | Leer y ejecutar | El código está escrito. Se ejecuta y se responde: ¿qué devuelve esto, y por qué? |
+| [02 - Modificar](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/02-regex/colab-02-modificar.ipynb) | Modificar una línea | Tres tareas, cada una con una línea marcada para cambiar. El resto no se toca. |
+| [03 - Completar](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/02-regex/colab-03-completar.ipynb) | Completar huecos | Tres tareas con huecos explícitos (`___`). Un hueco por tarea. |
+| [04 - Construir](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/02-regex/colab-04-construir.ipynb) | Construir desde plantilla | Código completo, tarea lingüística. Patrón libre sobre el corpus o sobre uno propio. |
 
 </div>
 
