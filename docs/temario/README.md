@@ -11,8 +11,8 @@
   - [x] Panorama completo: de regex a IA generativa.
 - [x] [Expresiones regulares](02-regex/README.md)
   - [x] [Regex básico](02-regex/basico.md), *sintaxis fundamental, casos de uso en lingüística*.
-  - [ ] Regex aplicado, *práctica con corpus reales, herramientas*.
-  - [ ] Regex avanzado + casos límite, *cuándo usar/no usar, alternativas*.
+  - [x] [Regex aplicado](02-regex/aplicado.md) y [aplicado en hojas de cálculo](02-regex/aplicadoSheets.md), *práctica con corpus reales, herramientas*.
+  - [x] [Regex avanzado](02-regex/avanzado.md) + casos límite, *cuándo usar/no usar, alternativas*. ***[Disclaimer](disclaimer.md)***
 - [ ] PLN
   - [ ] Tokenización + normalización, *herramientas prácticas, demos*.
   - [ ] POS tagging, *spaCy demo, interpretación lingüística*.
