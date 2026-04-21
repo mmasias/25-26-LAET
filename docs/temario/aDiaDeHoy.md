@@ -2,6 +2,22 @@
 
 > *Entiéndase "deberíamos saber" como una combinación de "nos debería sonar", "no nos debería sorprender", "deberíamos conocer", "deberíamos saber manejar", en función del tema abordado. En cualquier caso, lo mínimo es "no nos debería sorprender" y deberíamos poder tener una mínima conversación o lectura sobre estos temas.*
 
+## 21 de abril
+
+- La programación como ejercicio máximo de la abstracción.
+- Python como lenguaje, Google Colab como entorno de programación
+- Salida de datos (print), variables, ejecución de programas.
+
+## 16 de abril
+
+- Expresiones regulares en la hoja de cálculo.
+- PlantUML, diagramas como texto declarativo.
+
+## 14 de abril
+
+- Expresiones regulares en los procesadores de texto.
+- Recursividad, patrones (temporales y estructurales). Diferencia entre algo secuencial, recurrente, iterativo y recursivo.
+
 ## 9 de abril
 
 - Uso de expresiones regulares para encontrar diversos patrones. Pero sobretodo entender cómo y por qué encuentran lo que encuentran.
