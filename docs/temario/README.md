@@ -14,9 +14,9 @@
   - [x] [Regex aplicado](02-regex/aplicado.md) y [aplicado en hojas de cálculo](02-regex/aplicadoSheets.md), *práctica con corpus reales, herramientas*.
   - [x] [Regex avanzado](02-regex/avanzado.md) + casos límite, *cuándo usar/no usar, alternativas*. ***[Disclaimer](disclaimer.md)***
 - [ ] PLN
-  - [x] [Sesión 1](03-pln/sesion1.ipynb) — *Del patrón al token: tokenización, POS tagging, NER y frecuencias. Cómo funciona un modelo de lengua.*
-  - [ ] [Sesión 2](03-pln/sesion2.ipynb) — *Terminología y semántica: Matcher, extracción de candidatos a término, vectores de palabras y similitud semántica.*
-  - [ ] [Sesión 3](03-pln/sesion3.ipynb) — *Traducción automática: funcionamiento, evaluación con BLEU, post-edición y límites estructurales.*
+  - [x] [Sesión 1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1.ipynb) — *Del patrón al token: tokenización, POS tagging, NER y frecuencias. Cómo funciona un modelo de lengua.*
+  - [ ] [Sesión 2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb) — *Terminología y semántica: Matcher, extracción de candidatos a término, vectores de palabras y similitud semántica.*
+  - [ ] [Sesión 3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb) — *Traducción automática: funcionamiento, evaluación con BLEU, post-edición y límites estructurales.*
   - [ ] Sesión 4 — *Trabajo autónomo sobre corpus propio.*
 - [ ] IA generativa
   - [ ] Fundamentos IA generativa, *cómo funcionan conceptualmente los LLMs*.
