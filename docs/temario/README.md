@@ -15,8 +15,8 @@
   - [x] [Regex avanzado](02-regex/avanzado.md) + casos límite, *cuándo usar/no usar, alternativas*. ***[Disclaimer](disclaimer.md)***
 - [ ] IA generativa
   - [ ] Fundamentos IA generativa, *cómo funcionan conceptualmente los LLMs*.
-  - [ ] Prompting básico, *estructura, patrones, mejores prácticas*.
-  - [ ] Prompting avanzado, *chain-of-thought, few-shot, casos complejos*.
+  - [ ] [Primera aproximación](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/lab-aistudio.ipynb)
+  - [ ] Prompting: *estructura, patrones, mejores prácticas, chain-of-thought, few-shot, casos complejos*.
   - [ ] IA generativa para traducción/localización
   - [ ] IA generativa para creación de contenido lingüístico
   - [ ] Evaluación crítica + límites + ética + cierre
