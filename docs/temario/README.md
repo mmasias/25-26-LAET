@@ -14,7 +14,7 @@
   - [x] [Regex aplicado](02-regex/aplicado.md) y [aplicado en hojas de cálculo](02-regex/aplicadoSheets.md), *práctica con corpus reales, herramientas*.
   - [x] [Regex avanzado](02-regex/avanzado.md) + casos límite, *cuándo usar/no usar, alternativas*. ***[Disclaimer](disclaimer.md)***
 - [ ] IA generativa
-  - [ ] Fundamentos IA generativa, *cómo funcionan conceptualmente los LLMs*.
+  - [ ] [Fundamentos IA generativa](04-ia/README.md), *cómo funcionan conceptualmente los LLMs*.
   - [ ] [Primera aproximación](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/lab-aistudio.ipynb): aiStudio
   - [ ] Prompting: *estructura, patrones, mejores prácticas, chain-of-thought, few-shot, casos complejos*.
   - [ ] IA generativa para traducción/localización
