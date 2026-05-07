@@ -17,14 +17,11 @@
   - [x] [Fundamentos IA generativa](04-ia/README.md), *cómo funcionan conceptualmente los LLMs*.
   - [x] [Primera aproximación](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/lab-aistudio.ipynb): aiStudio
   - [x] [Fundamentos](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/sesion1.ipynb), [prompting](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/sesion2.ipynb) & [prompting avanzado](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/sesion3.ipynb): *estructura, patrones, mejores prácticas, chain-of-thought, few-shot, casos complejos*.
-  - [ ] IA generativa para traducción/localización
-  - [ ] IA generativa para creación de contenido lingüístico
   - [ ] Evaluación crítica + límites + ética + cierre
 - [ ] PLN
   - [ ] [Sesión 1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1.ipynb) — *Del patrón al token: tokenización, POS tagging, NER y frecuencias. Cómo funciona un modelo de lengua.*
   - [ ] [Sesión 2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb) — *Terminología y semántica: Matcher, extracción de candidatos a término, vectores de palabras y similitud semántica.*
   - [ ] [Sesión 3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb) — *Traducción automática: funcionamiento, evaluación con BLEU, post-edición y límites estructurales.*
-  - [ ] Sesión 4 — *Trabajo autónomo sobre corpus propio.*
 
 ## Temario++
 
