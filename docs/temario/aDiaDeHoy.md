@@ -2,7 +2,13 @@
 
 > *Entiéndase "deberíamos saber" como una combinación de "nos debería sonar", "no nos debería sorprender", "deberíamos conocer", "deberíamos saber manejar", en función del tema abordado. En cualquier caso, lo mínimo es "no nos debería sorprender" y deberíamos poder tener una mínima conversación o lectura sobre estos temas.*
 
-## 21 de abril
+## 28 y 30 de abril
+
+- Fundamentos de modelos de lenguaje
+- Componentes del modelo de lenguaje
+- Prompts, temperatura, modelos
+
+## 21 y 23 de abril
 
 - La programación como ejercicio máximo de la abstracción.
 - Python como lenguaje, Google Colab como entorno de programación
