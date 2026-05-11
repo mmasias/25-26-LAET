@@ -19,9 +19,9 @@
   - [x] [Prompting](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/sesion2.ipynb) 
   - [x] [Prompting avanzado](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/04-ia/sesion3.ipynb): *estructura, patrones, mejores prácticas, chain-of-thought, few-shot, casos complejos*.
 - [x] [PLN](03-pln/README.md)
-  - [x] [Sesión 1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1.ipynb) — *Del patrón al token: Reconocimiento de Entidades (NER) y la mirada de la máquina.*
-  - [x] [Sesión 2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb) — *Candidatos y significados: Extracción terminológica y similitud semántica (vectores).*
-  - [x] [Sesión 3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb) — *Traducción automática: funcionamiento, evaluación (BLEU), post-edición y límites estructurales.*
+  - [x] [Sesión 1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1.ipynb): *Del patrón al token: Reconocimiento de Entidades (NER) y la mirada de la máquina.*
+  - [x] [Sesión 2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb): *Candidatos y significados: Extracción terminológica y similitud semántica (vectores).*
+  - [x] [Sesión 3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb): *Traducción automática: funcionamiento, evaluación (BLEU), post-edición y límites estructurales.*
 
 ## Temario++
 
