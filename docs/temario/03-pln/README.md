@@ -44,9 +44,16 @@ Las tres sesiones utilizan **spaCy** sobre **Google Colab**, sin instalación lo
 
 | Sesión | Tema | Contenido |
 |-|-|-|
-| [Sesión 1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1.ipynb) | NER y escala | La mirada de la máquina: cómo un modelo identifica entidades sin reglas explícitas. Límites del modelo y auditoría de errores. [SD1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica1-anonimizacion.ipynb) / [SD2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica2-mapa-poder.ipynb) / [SD3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica3-trampas.ipynb) / [SD4](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica4-bilingue.ipynb)|
-| [Sesión 2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb) | Terminología y vectores | De la forma al concepto: extracción de términos complejos por patrones morfosintácticos y similitud semántica mediante representación vectorial. |
-| [Sesión 3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb) | Traducción automática | El principio detrás de BLEU: cómo los algoritmos puntúan traducciones y por qué esa puntuación puede engañar. Post-edición con etiquetado de errores. |
+| [Sesión 1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1.ipynb) | NER y escala | La mirada de la máquina: cómo un modelo identifica entidades sin reglas explícitas. Límites del modelo y auditoría de errores. |
+| Sesión 2[](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb) | Terminología y vectores | De la forma al concepto: extracción de términos complejos por patrones morfosintácticos y similitud semántica mediante representación vectorial. |
+| Sesión 3[](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb) | Traducción automática | El principio detrás de BLEU: cómo los algoritmos puntúan traducciones y por qué esa puntuación puede engañar. Post-edición con etiquetado de errores. |
+
+### Dinámicas
+
+- [SD1-1](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica1-anonimizacion.ipynb) : Sustituir entidades por marcadores, evalúa escapes y falsos positivos 
+- [SD1-2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica2-mapa-poder.ipynb)  : Extraer personas, clasificar quién habla vs. quién es mencionado 
+- [SD1-3](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica3-trampas.ipynb) : Diseñar frases que engañen al modelo 
+- [SD1-4](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion1-dinamica4-bilingue.ipynb) : Comparar texto ES y EN 
 
 ### Alcance del bloque
 
