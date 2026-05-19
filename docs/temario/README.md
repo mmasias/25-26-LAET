@@ -23,7 +23,7 @@
   - [x] [Sesión 2](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion2.ipynb): *Candidatos y significados: Extracción terminológica y similitud semántica (vectores).*
   - [x] Sesión 3 [](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/03-pln/sesion3.ipynb): *Traducción automática: funcionamiento, evaluación (BLEU), post-edición y límites estructurales.*
 
-> Cierre[](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/cierre.ipynb)
+> [Cierre](https://colab.research.google.com/github/mmasias/25-26-LAET/blob/main/docs/temario/cierre.ipynb)
 
 ## Temario++
 
